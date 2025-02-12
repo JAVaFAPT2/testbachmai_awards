@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dangn\\source\\repos\\test1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20E55760-294C-44D7-B323-5ACC0B716DA0}|test1\\test1.csproj|c:\\users\\dangn\\source\\repos\\test1\\test1\\models\\persons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20E55760-294C-44D7-B323-5ACC0B716DA0}|test1\\test1.csproj|solutionrelative:test1\\models\\persons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20E55760-294C-44D7-B323-5ACC0B716DA0}|test1\\test1.csproj|c:\\users\\dangn\\source\\repos\\test1\\test1\\controller\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20E55760-294C-44D7-B323-5ACC0B716DA0}|test1\\test1.csproj|solutionrelative:test1\\controller\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20E55760-294C-44D7-B323-5ACC0B716DA0}|test1\\test1.csproj|c:\\users\\dangn\\source\\repos\\test1\\test1\\models\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20E55760-294C-44D7-B323-5ACC0B716DA0}|test1\\test1.csproj|solutionrelative:test1\\models\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20E55760-294C-44D7-B323-5ACC0B716DA0}|test1\\test1.csproj|c:\\users\\dangn\\source\\repos\\test1\\test1\\models\\irepository\\ipersonsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20E55760-294C-44D7-B323-5ACC0B716DA0}|test1\\test1.csproj|solutionrelative:test1\\models\\irepository\\ipersonsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20E55760-294C-44D7-B323-5ACC0B716DA0}|test1\\test1.csproj|c:\\users\\dangn\\source\\repos\\test1\\test1\\test1.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{20E55760-294C-44D7-B323-5ACC0B716DA0}|test1\\test1.csproj|solutionrelative:test1\\test1.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20E55760-294C-44D7-B323-5ACC0B716DA0}|test1\\test1.csproj|c:\\users\\dangn\\source\\repos\\test1\\test1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20E55760-294C-44D7-B323-5ACC0B716DA0}|test1\\test1.csproj|solutionrelative:test1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20E55760-294C-44D7-B323-5ACC0B716DA0}|test1\\test1.csproj|c:\\users\\dangn\\source\\repos\\test1\\test1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{20E55760-294C-44D7-B323-5ACC0B716DA0}|test1\\test1.csproj|solutionrelative:test1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20E55760-294C-44D7-B323-5ACC0B716DA0}|test1\\test1.csproj|c:\\users\\dangn\\source\\repos\\test1\\test1\\data\\test1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20E55760-294C-44D7-B323-5ACC0B716DA0}|test1\\test1.csproj|solutionrelative:test1\\data\\test1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20E55760-294C-44D7-B323-5ACC0B716DA0}|test1\\test1.csproj|c:\\users\\dangn\\source\\repos\\test1\\test1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{20E55760-294C-44D7-B323-5ACC0B716DA0}|test1\\test1.csproj|solutionrelative:test1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20E55760-294C-44D7-B323-5ACC0B716DA0}|test1\\test1.csproj|c:\\users\\dangn\\source\\repos\\test1\\test1\\test1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{20E55760-294C-44D7-B323-5ACC0B716DA0}|test1\\test1.csproj|solutionrelative:test1\\test1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\test1\\test1\\Program.cs",
+              "RelativeDocumentMoniker": "test1\\Program.cs",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\test1\\test1\\Program.cs",
+              "RelativeToolTip": "test1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T11:48:33.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MongoDBSettings.cs",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\test1\\test1\\models\\MongoDBSettings.cs",
+              "RelativeDocumentMoniker": "test1\\models\\MongoDBSettings.cs",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\test1\\test1\\models\\MongoDBSettings.cs",
+              "RelativeToolTip": "test1\\models\\MongoDBSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T12:10:45.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "persons.cs",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\test1\\test1\\models\\persons.cs",
+              "RelativeDocumentMoniker": "test1\\models\\persons.cs",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\test1\\test1\\models\\persons.cs",
+              "RelativeToolTip": "test1\\models\\persons.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T11:51:45.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonController.cs",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\test1\\test1\\controller\\PersonController.cs",
+              "RelativeDocumentMoniker": "test1\\controller\\PersonController.cs",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\test1\\test1\\controller\\PersonController.cs",
+              "RelativeToolTip": "test1\\controller\\PersonController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAmwEQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T12:37:27.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPersonsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\test1\\test1\\models\\IRepository\\IPersonsRepository.cs",
+              "RelativeDocumentMoniker": "test1\\models\\IRepository\\IPersonsRepository.cs",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\test1\\test1\\models\\IRepository\\IPersonsRepository.cs",
+              "RelativeToolTip": "test1\\models\\IRepository\\IPersonsRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA9wCEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T12:25:58.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\test1\\test1\\appsettings.json",
+              "RelativeDocumentMoniker": "test1\\appsettings.json",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\test1\\test1\\appsettings.json",
+              "RelativeToolTip": "test1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-10T11:48:37.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "test1.http",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\test1\\test1\\test1.http",
+              "RelativeDocumentMoniker": "test1\\test1.http",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\test1\\test1\\test1.http",
+              "RelativeToolTip": "test1\\test1.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-02-10T11:48:22.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "test1Context.cs",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\test1\\test1\\Data\\test1Context.cs",
+              "RelativeDocumentMoniker": "test1\\Data\\test1Context.cs",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\test1\\test1\\Data\\test1Context.cs",
+              "RelativeToolTip": "test1\\Data\\test1Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T12:12:30.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\test1\\test1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "test1\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\test1\\test1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "test1\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-10T11:51:04.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "test1",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\test1\\test1\\test1.csproj",
+              "RelativeDocumentMoniker": "test1\\test1.csproj",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\test1\\test1\\test1.csproj",
+              "RelativeToolTip": "test1\\test1.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-10T11:48:40.742Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
