@@ -15,7 +15,6 @@
     <Folder Include="service\HumanData\Commands\Update\" />
     <Folder Include="service\HumanData\Queries\GetHumandsByID\" />
     <Folder Include="service\HumanData\Queries\GetAllHumans\" />
-    <Folder Include="service\DTO\" />
   </ItemGroup>
 
 </Project>

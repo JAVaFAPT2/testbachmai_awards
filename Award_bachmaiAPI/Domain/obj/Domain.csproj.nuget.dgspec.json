@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Domain\\Domain.csproj": {}
+    "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Aplication\\Aplication.csproj": {
+    "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\Aplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Aplication\\Aplication.csproj",
+        "projectUniqueName": "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\Aplication.csproj",
         "projectName": "Aplication",
-        "projectPath": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Aplication\\Aplication.csproj",
+        "projectPath": "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\Aplication.csproj",
         "packagesPath": "C:\\Users\\dangn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Aplication\\obj\\",
+        "outputPath": "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Domain\\Domain.csproj": {
+    "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\dangn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,8 +99,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Aplication\\Aplication.csproj": {
-                "projectPath": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Aplication\\Aplication.csproj"
+              "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\Aplication.csproj": {
+                "projectPath": "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\Aplication.csproj"
               }
             }
           }
@@ -120,6 +120,20 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.30.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

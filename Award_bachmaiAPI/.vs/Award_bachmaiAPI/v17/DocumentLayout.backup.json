@@ -30,12 +30,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Aplication",
+              "Title": "Aplication.csproj",
               "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Aplication\\Aplication.csproj",
               "RelativeDocumentMoniker": "Aplication\\Aplication.csproj",
               "ToolTip": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Aplication\\Aplication.csproj",
@@ -55,8 +59,7 @@
               "RelativeToolTip": "WebAPI\\Properties\\launchSettings.json",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwA8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-13T11:04:03.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T11:04:03.799Z"
             },
             {
               "$type": "Document",
@@ -68,8 +71,7 @@
               "RelativeToolTip": "WebAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-13T11:03:55.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T11:03:55.303Z"
             },
             {
               "$type": "Document",
@@ -81,8 +83,7 @@
               "RelativeToolTip": "WebAPI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T11:03:53.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T11:03:53.186Z"
             },
             {
               "$type": "Document",
@@ -94,12 +95,7 @@
               "RelativeToolTip": "WebAPI\\WebAPI.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-02-13T11:03:45.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-02-13T11:03:45.021Z"
             }
           ]
         }

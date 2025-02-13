@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\dangn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -54,6 +54,18 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.30.0, )"
             }
           },
           "imports": [

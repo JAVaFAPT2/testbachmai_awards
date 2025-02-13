@@ -1,0 +1,41 @@
+BachAwardApi/
+├── Domain/
+│   ├── Models/
+│   │   ├── Person.cs
+│   │   ├── Email.cs
+│   │   ├── PhoneNumber.cs
+│   │   ├── Country.cs
+│   │   └── Tag.cs
+│   ├── Interfaces/
+│   │   ├── IPersonRepository.cs
+│   │   └── IPersonService.cs
+├── Application/
+│   ├── Features/
+│   │   ├── People/
+│   │   │   ├── Commands/
+│   │   │   │   ├── CreatePersonCommand.cs
+│   │   │   │   └── CreatePersonCommandHandler.cs
+│   │   │   ├── Queries/
+│   │   │   │   └── GetPersonByIdQuery.cs
+│   │   │   └── DTOs/
+│   │   │       ├── PersonDto.cs
+│   │   │       └── CreatePersonDto.cs
+├── Infrastructure/
+│   ├── Persistence/
+│   │   ├── BachAwardDbContext.cs
+│   │   ├── Repositories/
+│   │   │   ├── PersonRepository.cs
+│   │   │   └── TagRepository.cs
+│   │   └── BsonClassMapConfig.cs
+├── WebApi/
+│   ├── Controllers/
+│   │   └── PeopleController.cs
+│   └── Startup.cs
+├── Tests/
+│   └── BachAwardApi.Tests/
+│       ├── UnitTests/
+│       │   └── PersonServiceTests.cs
+│       └── IntegrationTests/
+│           └── PeopleControllerTests.cs
+├── Program.cs
+└── appsettings.json
