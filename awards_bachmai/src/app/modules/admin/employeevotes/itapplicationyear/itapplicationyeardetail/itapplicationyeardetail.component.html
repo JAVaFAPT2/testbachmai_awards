@@ -1,0 +1,12 @@
+<div class="flex items-center justify-between p-4">
+    <div class="flex items-center">
+        <button
+            mat-raised-button
+            [color]="contact.hasVoted ? 'accent' : 'primary'"
+            [disabled]="!contact.hasVoted && (userVoteCount$ | async) >= 5"
+            (click)="toggleVote()">
+            {{ contact.hasVoted ? 'Remove Vote' : 'Vote' }}
+        </button>
+        <span class="ml-4">{{ contact.votes }} votes</span>
+    </div>
+</div>
