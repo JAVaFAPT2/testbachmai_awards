@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9BD998F-60C3-4B92-8E2C-5779C7101E3C}|Domain\\Domain.csproj|c:\\users\\dangn\\source\\repos\\award_bachmaiapi\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9BD998F-60C3-4B92-8E2C-5779C7101E3C}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72A70EB0-9AC9-4984-95CF-8AD500EE6FCB}|Aplication\\Aplication.csproj|c:\\users\\dangn\\source\\repos\\award_bachmaiapi\\aplication\\aplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{72A70EB0-9AC9-4984-95CF-8AD500EE6FCB}|Aplication\\Aplication.csproj|solutionrelative:aplication\\aplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72A70EB0-9AC9-4984-95CF-8AD500EE6FCB}|Aplication\\Aplication.csproj|c:\\users\\dangn\\source\\repos\\award_bachmaiapi\\aplication\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72A70EB0-9AC9-4984-95CF-8AD500EE6FCB}|Aplication\\Aplication.csproj|solutionrelative:aplication\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{493554FD-FD05-41DF-A34C-9FFE55964D68}|WebAPI\\WebAPI.csproj|c:\\users\\dangn\\source\\repos\\award_bachmaiapi\\webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{493554FD-FD05-41DF-A34C-9FFE55964D68}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C3793DE-12F2-4EB5-A1C7-AF2210EE65F5}|Infastructure\\Infastructure.csproj|c:\\users\\dangn\\source\\repos\\award_bachmaiapi\\infastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C3793DE-12F2-4EB5-A1C7-AF2210EE65F5}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{493554FD-FD05-41DF-A34C-9FFE55964D68}|WebAPI\\WebAPI.csproj|c:\\users\\dangn\\source\\repos\\award_bachmaiapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{493554FD-FD05-41DF-A34C-9FFE55964D68}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{493554FD-FD05-41DF-A34C-9FFE55964D68}|WebAPI\\WebAPI.csproj|c:\\users\\dangn\\source\\repos\\award_bachmaiapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{493554FD-FD05-41DF-A34C-9FFE55964D68}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{493554FD-FD05-41DF-A34C-9FFE55964D68}|WebAPI\\WebAPI.csproj|c:\\users\\dangn\\source\\repos\\award_bachmaiapi\\webapi\\webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{493554FD-FD05-41DF-A34C-9FFE55964D68}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,50 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "Domain\\Class1.cs",
-              "ToolTip": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Domain\\Class1.cs",
-              "RelativeToolTip": "Domain\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T13:36:47.729Z",
+              "Title": "Aplication.csproj",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Aplication\\Aplication.csproj",
+              "RelativeDocumentMoniker": "Aplication\\Aplication.csproj",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Aplication\\Aplication.csproj",
+              "RelativeToolTip": "Aplication\\Aplication.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-13T11:04:31.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Aplication\\Class1.cs",
-              "RelativeDocumentMoniker": "Aplication\\Class1.cs",
-              "ToolTip": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Aplication\\Class1.cs",
-              "RelativeToolTip": "Aplication\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T13:23:35.243Z",
-              "EditorCaption": ""
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\WebAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\WebAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-13T11:04:03.799Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Infastructure\\Class1.cs",
-              "RelativeDocumentMoniker": "Infastructure\\Class1.cs",
-              "ToolTip": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Infastructure\\Class1.cs",
-              "RelativeToolTip": "Infastructure\\Class1.cs",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T13:23:05.337Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-13T11:03:55.303Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T11:03:53.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WebAPI.http",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\WebAPI\\WebAPI.http",
+              "RelativeDocumentMoniker": "WebAPI\\WebAPI.http",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\WebAPI\\WebAPI.http",
+              "RelativeToolTip": "WebAPI\\WebAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-02-13T11:03:45.021Z"
             }
           ]
         }

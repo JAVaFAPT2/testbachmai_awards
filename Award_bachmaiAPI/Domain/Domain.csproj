@@ -10,4 +10,11 @@
     <ProjectReference Include="..\Aplication\Aplication.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="models\" />
+    <Folder Include="exception\" />
+    <Folder Include="Interface\" />
+    <Folder Include="valueObject\" />
+  </ItemGroup>
+
 </Project>

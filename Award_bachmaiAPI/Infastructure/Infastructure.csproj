@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="middleware\" />
+    <Folder Include="Persitance\migration\" />
+    <Folder Include="Persitance\DbContext\" />
+    <Folder Include="Persitance\repository\" />
+    <Folder Include="service\" />
+  </ItemGroup>
+
 </Project>
