@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="service\Commons\Interface\" />
+    <Folder Include="service\Commons\Behavior\" />
+    <Folder Include="service\HumanData\Commands\Create\" />
+    <Folder Include="service\HumanData\Commands\Delete\" />
+    <Folder Include="service\HumanData\Commands\" />
+    <Folder Include="service\HumanData\Commands\Update\" />
+    <Folder Include="service\HumanData\Queries\GetHumandsByID\" />
+    <Folder Include="service\HumanData\Queries\GetAllHumans\" />
+    <Folder Include="service\DTO\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9BD998F-60C3-4B92-8E2C-5779C7101E3C}|Domain\\Domain.csproj|c:\\users\\dangn\\source\\repos\\award_bachmaiapi\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9BD998F-60C3-4B92-8E2C-5779C7101E3C}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A70EB0-9AC9-4984-95CF-8AD500EE6FCB}|Aplication\\Aplication.csproj|c:\\users\\dangn\\source\\repos\\award_bachmaiapi\\aplication\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A70EB0-9AC9-4984-95CF-8AD500EE6FCB}|Aplication\\Aplication.csproj|solutionrelative:aplication\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3793DE-12F2-4EB5-A1C7-AF2210EE65F5}|Infastructure\\Infastructure.csproj|c:\\users\\dangn\\source\\repos\\award_bachmaiapi\\infastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3793DE-12F2-4EB5-A1C7-AF2210EE65F5}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Domain\\Class1.cs",
+              "RelativeToolTip": "Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T13:36:47.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Aplication\\Class1.cs",
+              "RelativeDocumentMoniker": "Aplication\\Class1.cs",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Aplication\\Class1.cs",
+              "RelativeToolTip": "Aplication\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T13:23:35.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Infastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\Award_bachmaiAPI\\Infastructure\\Class1.cs",
+              "RelativeToolTip": "Infastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T13:23:05.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
