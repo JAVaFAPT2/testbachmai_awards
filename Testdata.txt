@@ -1,0 +1,90 @@
+{
+    "name": "John Doe",
+    "avatar": "avatar_url",
+    "background": "background_url",
+    "title": "Software Engineer",
+    "company": "Tech Company",
+    "birthday": "1990-01-01T00:00:00",
+    "address": "123 Main St",
+    "notes": "Some notes",
+    "countryId": "60d5ec49f1f1b05bd4e4b98d",
+    "tagIds": ["60d5ec49f1f1b05bd4e4b98d"],
+    "emails": [
+        { "email": "john.doe@example.com" }
+    ],
+    "phoneNumbers": [
+        { "number": "123-456-7890" }
+    ]
+}
+{
+    "name": "Alice Smith",
+    "avatar": "https://example.com/avatars/alice.png",
+    "background": "https://example.com/backgrounds/alice_bg.png",
+    "title": "Project Manager",
+    "company": "Innovative Solutions",
+    "birthday": "1985-05-20T00:00:00",
+    "address": "456 Elm St",
+    "notes": "Project management expert.",
+    "countryId": "60d5ec49f1f1b05bd4e4b98e",
+    "tagIds": ["60d5ec49f1f1b05bd4e4b98e"],
+    "emails": [
+        { "email": "alice.smith@example.com" }
+    ],
+    "phoneNumbers": [
+        { "number": "987-654-3210" }
+    ]
+}
+{
+    "name": "Bob Johnson",
+    "avatar": "https://example.com/avatars/bob.png",
+    "background": "https://example.com/backgrounds/bob_bg.png",
+    "title": "UX Designer",
+    "company": "Creative Agency",
+    "birthday": "1992-10-15T00:00:00",
+    "address": "789 Pine Rd",
+    "notes": "Loves user-centered design.",
+    "countryId": "60d5ec49f1f1b05bd4e4b98f",
+    "tagIds": ["60d5ec49f1f1b05bd4e4b98f"],
+    "emails": [
+        { "email": "bob.johnson@example.com" }
+    ],
+    "phoneNumbers": [
+        { "number": "555-0123" }
+    ]
+}
+{
+    "name": "Charlie Brown",
+    "avatar": "https://example.com/avatars/charlie.png",
+    "background": "https://example.com/backgrounds/charlie_bg.png",
+    "title": "Data Scientist",
+    "company": "Data Insights",
+    "birthday": "1988-07-30T00:00:00",
+    "address": "321 Oak Ave",
+    "notes": "Expert in machine learning.",
+    "countryId": "60d5ec49f1f1b05bd4e4b990",
+    "tagIds": ["60d5ec49f1f1b05bd4e4b990"],
+    "emails": [
+        { "email": "charlie.brown@example.com" }
+    ],
+    "phoneNumbers": [
+        { "number": "333-444-5555" }
+    ]
+}
+{
+    "name": "Diana Prince",
+    "avatar": "https://example.com/avatars/diana.png",
+    "background": "https://example.com/backgrounds/diana_bg.png",
+    "title": "Web Developer",
+    "company": "Web Solutions",
+    "birthday": "1995-12-01T00:00:00",
+    "address": "654 Maple St",
+    "notes": "Full-stack developer.",
+    "countryId": "60d5ec49f1f1b05bd4e4b991",
+    "tagIds": ["60d5ec49f1f1b05bd4e4b991"],
+    "emails": [
+        { "email": "diana.prince@example.com" }
+    ],
+    "phoneNumbers": [
+        { "number": "666-777-8888" }
+    ]
+}
