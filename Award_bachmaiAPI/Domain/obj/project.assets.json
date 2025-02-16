@@ -299,16 +299,6 @@
         "runtime": {
           "lib/net7.0/ZstdSharp.dll": {}
         }
-      },
-      "Aplication/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/Aplication.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Aplication.dll": {}
-        }
       }
     }
   },
@@ -797,16 +787,10 @@
         "zstdsharp.port.0.7.3.nupkg.sha512",
         "zstdsharp.port.nuspec"
       ]
-    },
-    "Aplication/1.0.0": {
-      "type": "project",
-      "path": "../Aplication/Aplication.csproj",
-      "msbuildProject": "../Aplication/Aplication.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Aplication >= 1.0.0",
       "MongoDB.Bson >= 3.2.0",
       "MongoDB.Driver >= 3.2.0",
       "MongoDB.Driver.Core >= 2.30.0"
@@ -844,11 +828,7 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {
-            "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\Aplication.csproj": {
-              "projectPath": "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\Aplication.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

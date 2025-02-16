@@ -1,8 +1,7 @@
 ﻿using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.Attributes;
-using Domain.Models; // Ensure this namespace contains your model classes
-using MongoDB.Bson.Serialization.IdGenerators;
-using Domain.models;
+using Domain.Models;
+using Domain.models; // Ensure this namespace contains your model classes
 
 namespace Infrastructure.Persistence
 {
@@ -14,13 +13,15 @@ namespace Infrastructure.Persistence
             BsonClassMap.RegisterClassMap<Person>(classMap =>
             {
                 classMap.AutoMap();
-                classMap.MapIdField(p => p.Id).SetIdGenerator(StringObjectIdGenerator.Instance);
+                classMap.MapIdField(p => p.Id); // Remove the custom serializer for Guid?
+
+                // Map other properties
                 classMap.MapMember(p => p.Emails); // Automatically handles List<Email>
                 classMap.MapMember(p => p.PhoneNumbers); // Automatically handles List<PhoneNumber>
                 classMap.MapMember(p => p.TagIds); // Automatically handles List<string>
                 classMap.MapMember(p => p.Address);
                 classMap.MapMember(p => p.Avatar);
-                classMap.MapMember(p =>p.Company);
+                classMap.MapMember(p => p.Company);
                 classMap.MapMember(p => p.CountryId);
                 classMap.MapMember(p => p.Background);
                 classMap.MapMember(p => p.Birthday);
@@ -53,7 +54,6 @@ namespace Infrastructure.Persistence
             {
                 cm.AutoMap();
             });
-
         }
     }
 }

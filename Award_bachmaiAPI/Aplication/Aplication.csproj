@@ -7,14 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="service\Commons\Interface\" />
-    <Folder Include="service\Commons\Behavior\" />
-    <Folder Include="service\HumanData\Commands\Create\" />
-    <Folder Include="service\HumanData\Commands\Delete\" />
-    <Folder Include="service\HumanData\Commands\" />
-    <Folder Include="service\HumanData\Commands\Update\" />
-    <Folder Include="service\HumanData\Queries\GetHumandsByID\" />
-    <Folder Include="service\HumanData\Queries\GetAllHumans\" />
+    <PackageReference Include="Autofac" Version="8.2.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="10.0.0" />
+    <PackageReference Include="Autofac.Extras.AttributeMetadata" Version="6.0.0" />
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="MediatR.Extensions.Autofac.DependencyInjection" Version="12.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 
 </Project>

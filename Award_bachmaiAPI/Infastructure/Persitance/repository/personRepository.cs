@@ -1,10 +1,9 @@
-﻿using Domain.Interfaces;
+﻿using MongoDB.Driver;
 using Domain.Models;
-using MongoDB.Driver;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Domain.Interfaces;
 
 namespace Infrastructure.Persistence.Repositories
 {
@@ -15,12 +14,21 @@ namespace Infrastructure.Persistence.Repositories
         public PersonRepository(BachAwardDbContext dbContext)
         {
             _peopleCollection = dbContext.People;
+
+            // Create an index on Emails.Address if it doesn't exist
+            var indexKeys = Builders<Person>.IndexKeys.Ascending(p => p.Emails.First().Address);
+            var indexOptions = new CreateIndexOptions<Person>
+            {
+                Unique = true // Set to true if you want to ensure uniqueness of email addresses
+            };
+
+            // Ensure index creation is awaited
+            _peopleCollection.Indexes.CreateOneAsync(new CreateIndexModel<Person>(indexKeys, indexOptions)).GetAwaiter().GetResult();
         }
 
         public async Task<Person> GetByIdAsync(Guid id)
         {
-            return await _peopleCollection.Find(p => p.Id == id.ToString())
-                              .FirstOrDefaultAsync();
+            return await _peopleCollection.Find(p => p.Id == id).FirstOrDefaultAsync();
         }
 
         public async Task<IEnumerable<Person>> GetAllAsync()
@@ -35,24 +43,26 @@ namespace Infrastructure.Persistence.Repositories
 
         public async Task UpdateAsync(Person person)
         {
-#pragma warning disable CS8602 // Dereference of a possibly null reference.
-            var filter = Builders<Person>.Filter.Eq("_id", person.Id.ToString());
-#pragma warning restore CS8602 // Dereference of a possibly null reference.
+            var filter = Builders<Person>.Filter.Eq(p => p.Id, person.Id);
             var update = Builders<Person>.Update
-            .Combine(
-                     Builders<Person>.Update.Set("Name", person.Name),
-                     Builders<Person>.Update.Set("Avatar", person.Avatar),
-                     Builders<Person>.Update.Set("Emails",person.Emails),
-                     Builders<Person>.Update.Set("PhoneNumbers", person.PhoneNumbers)
-                 // Set other fields as needed
-                 );
+                .Combine(
+                Builders<Person>.Update.Set(p => p.Name, person.Name),
+                Builders<Person>.Update.Set(p => p.Avatar, person.Avatar),
+                Builders<Person>.Update.Set(p => p.Background, person.Background),
+                Builders<Person>.Update.Set(p => p.Title, person.Title),
+                Builders<Person>.Update.Set(p => p.Company, person.Company),
+                Builders<Person>.Update.Set(p => p.Address, person.Address),
+                Builders<Person>.Update.Set(p => p.Notes, person.Notes),
+                Builders<Person>.Update.Set(p => p.Emails, person.Emails),
+                Builders<Person>.Update.Set(p => p.PhoneNumbers, person.PhoneNumbers) // Fixed line
+                );
 
             await _peopleCollection.UpdateOneAsync(filter, update);
         }
 
         public async Task DeleteAsync(Guid id)
         {
-            await _peopleCollection.DeleteOneAsync(p => p.Id == id.ToString());
+            await _peopleCollection.DeleteOneAsync(p => p.Id == id);
         }
     }
 }

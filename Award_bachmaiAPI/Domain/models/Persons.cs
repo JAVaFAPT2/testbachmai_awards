@@ -9,8 +9,8 @@ namespace Domain.Models
     public class Person
     {
         [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string ?Id { get; set; }
+        [BsonRepresentation(BsonType.String)]
+        public Guid? Id { get; set; }
 
         public required string Name { get; set; }
         public required string Avatar { get; set; }
@@ -30,4 +30,5 @@ namespace Domain.Models
         public required List<Email> Emails { get; set; }
         public required List<PhoneNumber> PhoneNumbers { get; set; }
     }
+
 }

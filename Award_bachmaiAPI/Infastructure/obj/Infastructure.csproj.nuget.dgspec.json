@@ -32,7 +32,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Domain\\Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -50,6 +54,28 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Autofac.Extras.AttributeMetadata": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "MediatR.Extensions.Autofac.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -98,11 +124,7 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {
-              "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\Aplication.csproj": {
-                "projectPath": "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\Aplication.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -183,6 +205,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\Aplication.csproj": {
+                "projectPath": "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\Aplication.csproj"
+              },
               "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Domain\\Domain.csproj"
               }
@@ -205,6 +230,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[3.2.0, )"

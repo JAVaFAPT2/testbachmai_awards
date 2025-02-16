@@ -1,23 +1,75 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
+using Domain.Interfaces;
+using Infrastructure.Persistence;
+using Infrastructure.Persistence.Repositories;
+using MediatR;
+using Application; // Ensure this namespace contains your MediatR handlers
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using System.Reflection;
+using Aplication.service.HumanData.Commands;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Use Autofac as the service provider
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 
+// Register your services with Autofac
+builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
+{
+    // Register your application services
+    containerBuilder.RegisterType<BachAwardDbContext>()
+                    .AsSelf()
+                    .WithParameter("connectionString", builder.Configuration.GetConnectionString("MongoDB"));
+
+    // Register repositories
+    containerBuilder.RegisterType<PersonRepository>().As<IPersonRepository>();
+
+    // Register MediatR handlers from the Application assembly
+    containerBuilder.RegisterAssemblyTypes(typeof(CreatePersonCommand).Assembly)
+                    .AsClosedTypesOf(typeof(IRequestHandler<,>))
+                    .InstancePerLifetimeScope();
+
+    // Optionally, if you have other handlers in different assemblies:
+    containerBuilder.RegisterAssemblyTypes(Assembly.GetExecutingAssembly())
+                    .AsClosedTypesOf(typeof(IRequestHandler<,>))
+                    .InstancePerLifetimeScope();
+});
+
+// Add services to the container.
 builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+
+// Register MediatR
+builder.Services.AddMediatR(cfg =>
+{
+    cfg.RegisterServicesFromAssemblies(AppDomain.CurrentDomain.GetAssemblies());
+});
+
+// Register class maps for Bson serialization
+BsonClassMapConfig.RegisterClassMaps();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseDeveloperExceptionPage();
+}
+else
+{
+    app.UseExceptionHandler(); // Use custom error handler in production
 }
 
 app.UseHttpsRedirection();
-
+app.UseRouting();
 app.UseAuthorization();
 
-app.MapControllers();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers(); // Map controllers for API endpoints
+});
 
 app.Run();

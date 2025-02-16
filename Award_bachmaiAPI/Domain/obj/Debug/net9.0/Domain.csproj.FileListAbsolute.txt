@@ -1,0 +1,13 @@
+C:\Users\dangn\OneDrive\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\Domain\bin\Debug\net9.0\Domain.deps.json
+C:\Users\dangn\OneDrive\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\Domain\bin\Debug\net9.0\Domain.dll
+C:\Users\dangn\OneDrive\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\Domain\bin\Debug\net9.0\Domain.pdb
+C:\Users\dangn\OneDrive\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\Domain\obj\Debug\net9.0\Domain.csproj.AssemblyReference.cache
+C:\Users\dangn\OneDrive\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\Domain\obj\Debug\net9.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dangn\OneDrive\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\Domain\obj\Debug\net9.0\Domain.AssemblyInfoInputs.cache
+C:\Users\dangn\OneDrive\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\Domain\obj\Debug\net9.0\Domain.AssemblyInfo.cs
+C:\Users\dangn\OneDrive\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\Domain\obj\Debug\net9.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\dangn\OneDrive\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\Domain\obj\Debug\net9.0\Domain.sourcelink.json
+C:\Users\dangn\OneDrive\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\Domain\obj\Debug\net9.0\Domain.dll
+C:\Users\dangn\OneDrive\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\Domain\obj\Debug\net9.0\refint\Domain.dll
+C:\Users\dangn\OneDrive\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\Domain\obj\Debug\net9.0\Domain.pdb
+C:\Users\dangn\OneDrive\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\Domain\obj\Debug\net9.0\ref\Domain.dll
