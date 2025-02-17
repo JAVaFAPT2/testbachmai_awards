@@ -4,13 +4,13 @@ using Domain.Interfaces;
 using Infrastructure.Persistence;
 using Infrastructure.Persistence.Repositories;
 using MediatR;
-using Application; // Ensure this namespace contains your MediatR handlers
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using System.Reflection;
 using Aplication.service.HumanData.Commands;
+using Infastructure.Security;
+using Infastructure.Persitance.DbContext;
+using Microsoft.EntityFrameworkCore;
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,7 +23,8 @@ builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
     // Register your application services
     containerBuilder.RegisterType<BachAwardDbContext>()
                     .AsSelf()
-                    .WithParameter("connectionString", builder.Configuration.GetConnectionString("MongoDB"));
+                    .WithParameter("connectionString",
+                                   builder.Configuration.GetConnectionString("MongoDB"));
 
     // Register repositories
     containerBuilder.RegisterType<PersonRepository>().As<IPersonRepository>();
@@ -38,6 +39,11 @@ builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
                     .AsClosedTypesOf(typeof(IRequestHandler<,>))
                     .InstancePerLifetimeScope();
 });
+// Configure MySQL DbContext
+builder.Services.AddDbContext<MySqlDbContext>(options =>
+    options.UseMySql(builder.Configuration.GetConnectionString("MySqlConnection"),
+    new MySqlServerVersion(new Version(8, 0, 21))));
+
 
 // Add services to the container.
 builder.Services.AddControllers();
@@ -47,7 +53,7 @@ builder.Services.AddMediatR(cfg =>
 {
     cfg.RegisterServicesFromAssemblies(AppDomain.CurrentDomain.GetAssemblies());
 });
-
+builder.Services.AddCustomCors("http://localhost:4200");
 // Register class maps for Bson serialization
 BsonClassMapConfig.RegisterClassMaps();
 
@@ -63,13 +69,19 @@ else
     app.UseExceptionHandler(); // Use custom error handler in production
 }
 
+
 app.UseHttpsRedirection();
+
+
 app.UseRouting();
+
 app.UseAuthorization();
 
 app.UseEndpoints(endpoints =>
 {
-    endpoints.MapControllers(); // Map controllers for API endpoints
+
+    ControllerActionEndpointConventionBuilder controllerActionEndpointConventionBuilder = endpoints.MapControllers(); // Map controllers for API endpoints
+
 });
 
 app.Run();

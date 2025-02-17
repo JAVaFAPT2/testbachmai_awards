@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Domain.Interfaces;
+using Infastructure.Persitance.DbContext;
 
 namespace Infrastructure.Persistence.Repositories
 {

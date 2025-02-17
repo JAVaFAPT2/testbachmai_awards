@@ -16,3 +16,5 @@ C:\Users\dangn\OneDrive\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\Inf
 C:\Users\dangn\OneDrive\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\Infastructure\obj\Debug\net9.0\refint\Infastructure.dll
 C:\Users\dangn\OneDrive\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\Infastructure\obj\Debug\net9.0\Infastructure.pdb
 C:\Users\dangn\OneDrive\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\Infastructure\obj\Debug\net9.0\ref\Infastructure.dll
+C:\Users\dangn\OneDrive\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\Infastructure\bin\Debug\net9.0\Infastructure.runtimeconfig.json
+C:\Users\dangn\OneDrive\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\Infastructure\obj\Debug\net9.0\Infastructure.genruntimeconfig.cache

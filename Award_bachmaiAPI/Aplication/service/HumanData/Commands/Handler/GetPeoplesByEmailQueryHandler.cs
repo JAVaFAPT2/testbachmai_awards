@@ -1,0 +1,31 @@
+﻿using Application.Features.Humans.Queries;
+using Domain.Models;
+using MediatR;
+using MongoDB.Driver;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Aplication.service.HumanData.Commands.Handler
+{
+    public class GetPeoplesByEmailQueryHandler : IRequestHandler<GetPeoplesByEmailQuery, Person?>
+    {
+        private readonly IMongoCollection<Person> _peopleCollection;
+
+        public GetPeoplesByEmailQueryHandler(IMongoCollection<Person> peopleCollection)
+        {
+            _peopleCollection = peopleCollection;
+        }
+
+        public async Task<Person?> Handle(GetPeoplesByEmailQuery query, CancellationToken cancellationToken)
+        {
+            // Correctly filter to check if any email matches the provided address
+            var filter = Builders<Person>.Filter.ElemMatch(p => p.Emails, e => e.Address == query.Email);
+            var person = await _peopleCollection.Find(filter).FirstOrDefaultAsync(cancellationToken);
+
+            return person;
+        }
+    }
+}

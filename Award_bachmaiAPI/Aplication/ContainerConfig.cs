@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Aplication.service.HumanData.Commands.Handler;
+using Application.Features.People.Queries;
 using Autofac;
 using Autofac.Features.Variance;
 
@@ -22,6 +23,18 @@ namespace Aplication
             builder.RegisterType<DeletePersonCommandHandler>()
                    .AsImplementedInterfaces();
 
+            builder.RegisterType<UpdatePersonCommandHandler>()
+                .AsImplementedInterfaces();
+
+            builder.RegisterType<GetAllPeopleQueryHandler>()
+                .AsImplementedInterfaces();
+
+            builder.RegisterType<GetPersonByIdQueryHandler>()
+                .AsImplementedInterfaces();
+
+            builder.RegisterType<GetPeoplesByEmailQueryHandler>()
+                .AsImplementedInterfaces();
+            //Add more here
             return builder;
         }
     }

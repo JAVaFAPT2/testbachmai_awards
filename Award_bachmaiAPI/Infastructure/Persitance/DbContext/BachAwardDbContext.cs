@@ -4,7 +4,7 @@ using MongoDB.Driver;
 using System;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Persistence
+namespace Infastructure.Persitance.DbContext
 {
     public class BachAwardDbContext
     {
@@ -13,7 +13,7 @@ namespace Infrastructure.Persistence
         public BachAwardDbContext(string connectionString)
         {
             var client = new MongoClient(connectionString);
-            _database = client.GetDatabase("BachAwardApi");
+            _database = client.GetDatabase("test");
         }
 
         public IMongoCollection<Person> People => _database.GetCollection<Person>("people");
