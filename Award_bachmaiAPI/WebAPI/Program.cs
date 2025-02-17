@@ -1,8 +1,5 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
-using Domain.Interfaces;
-using Infrastructure.Persistence;
-using Infrastructure.Persistence.Repositories;
 using MediatR;
 using System.Reflection;
 using Aplication.service.HumanData.Commands;
@@ -10,6 +7,9 @@ using Infastructure.Security;
 using Infastructure.Persitance.DbContext;
 using Microsoft.EntityFrameworkCore;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
+using Domain.Interface;
+using Infastructure.Persitance;
+using Infastructure.Persitance.repository;
 
 
 var builder = WebApplication.CreateBuilder(args);

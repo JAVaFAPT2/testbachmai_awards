@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Domain.Models;
 
-namespace Application.Features.People.Services
+namespace Domain.Interface
 {
     public interface IPersonService
     {

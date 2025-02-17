@@ -1,4 +1,4 @@
-﻿using Application.Service.HumanData.Queries;
+﻿using Aplication.service.HumanData.Queries;
 using Domain.Models;
 using MediatR;
 using MongoDB.Driver;
@@ -10,14 +10,9 @@ using System.Threading.Tasks;
 
 namespace Aplication.service.HumanData.Commands.Handler
 {
-    public class GetPersonByIdQueryHandler : IRequestHandler<GetPeoplesByIdQuery, Person>
+    public class GetPersonByIdQueryHandler(IMongoCollection<Person> peopleCollection) : IRequestHandler<GetPeoplesByIdQuery, Person>
     {
-        private readonly IMongoCollection<Person> _peopleCollection;
-
-        public GetPersonByIdQueryHandler(IMongoCollection<Person> peopleCollection)
-        {
-            _peopleCollection = peopleCollection;
-        }
+        private readonly IMongoCollection<Person> _peopleCollection = peopleCollection;
 
         public async Task<Person> Handle(GetPeoplesByIdQuery query, CancellationToken cancellationToken = default)
         {

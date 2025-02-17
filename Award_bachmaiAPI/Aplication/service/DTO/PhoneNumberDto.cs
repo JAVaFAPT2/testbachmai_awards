@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Aplication.service.DTO
 {
-    public class PhoneNumberDto
+    public record class PhoneNumberDto
     {
         public string? CountryCode { get; set; }
         public string? Number { get; set; }

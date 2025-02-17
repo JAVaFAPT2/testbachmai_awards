@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using Domain.Models;
 using System.Security.Cryptography;
 
-namespace Application.Features.Humans.Queries
+namespace Aplication.service.HumanData.Queries
 {
     public class GetAllPeoplesQueries : IRequest<IEnumerable<Person>>
     {

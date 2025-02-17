@@ -4,21 +4,15 @@ using System.Threading.Tasks;
 using MediatR;
 
 using Aplication.service.HumanData.Commands;
-using Application.Service.HumanData.Queries;
-using Application.Features.Humans.Queries;
+using Aplication.service.HumanData.Queries;
 
-namespace Application.WebApi.Controllers
+namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class PeopleController : ControllerBase
+    public class PeopleController(IMediator mediator) : ControllerBase
     {
-        private readonly IMediator _mediator;
-
-        public PeopleController(IMediator mediator)
-        {
-            _mediator = mediator;
-        }
+        private readonly IMediator _mediator = mediator;
 
         // POST: api/people
         [HttpPost]

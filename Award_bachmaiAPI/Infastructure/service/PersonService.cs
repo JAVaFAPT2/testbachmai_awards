@@ -1,27 +1,18 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Application.Features.People.Services;
-using Domain.Interfaces;
 using Domain.Models;
-using Infrastructure.Persistence.Repositories;
 using MediatR;
 using Aplication.service.DTO;
 using Aplication.service.HumanData.Commands;
-using Application.Features.Humans.Queries;
+using Domain.Interface;
+using Aplication.service.HumanData.Queries;
 
-namespace Infrastructure.service
+namespace Infastructure.service
 {
-    public class PersonService : IPersonService
+    public class PersonService( IMediator mediator) : IPersonService
     {
-        private readonly IPersonRepository _personRepository;
-        private readonly IMediator _mediator;
-
-        public PersonService(IPersonRepository personRepository, IMediator mediator)
-        {
-            _personRepository = personRepository;
-            _mediator = mediator;
-        }
+        private readonly IMediator _mediator = mediator;
 
         public async Task<Person> CreatePersonAsync(Person person)
         {
@@ -44,7 +35,7 @@ namespace Infrastructure.service
 
         public async Task<Person> GetPersonByEmailAsync(string email)
         {
-            return await _mediator.Send(new GetPeoplesByEmailQuery(email)); 
+            return await _mediator.Send(new GetPeoplesByEmailQuery(email));
         }
 
         public async Task<IEnumerable<Person>> GetAllPeopleAsync()
@@ -56,7 +47,7 @@ namespace Infrastructure.service
         {
             if (!person.Id.HasValue) // Check if Id is null
             {
-                throw new ArgumentException("Person Id cannot be null.", nameof(person.Id));
+                throw new ArgumentException("Person Id cannot be null.", nameof(person));
             }
             await _mediator.Send(new UpdatePersonCommand
             {
@@ -75,7 +66,7 @@ namespace Infrastructure.service
 
         public async Task DeletePersonAsync(Guid id)
         {
-            await _mediator.Send(new DeletePersonCommand { Id = id }); 
+            await _mediator.Send(new DeletePersonCommand { Id = id });
         }
     }
 }

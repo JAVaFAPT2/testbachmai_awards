@@ -1,9 +1,9 @@
 ﻿using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.Attributes;
 using Domain.Models;
-using Domain.models; // Ensure this namespace contains your model classes
+using Domain.models;
 
-namespace Infrastructure.Persistence
+namespace Infastructure.Persitance
 {
     public static class BsonClassMapConfig
     {

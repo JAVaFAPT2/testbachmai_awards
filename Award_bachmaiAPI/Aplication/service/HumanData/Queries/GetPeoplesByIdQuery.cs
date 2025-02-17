@@ -4,17 +4,12 @@ using System.Threading.Tasks;
 using System;
 using Domain.Models;
 
-namespace Application.Service.HumanData.Queries
+namespace Aplication.service.HumanData.Queries
 {
-    public class GetPeoplesByIdQuery : IRequest<Person>
+    public class GetPeoplesByIdQuery(Guid id) : IRequest<Person>
     {
-        public Guid Id { get; set; }
-
-        public GetPeoplesByIdQuery(Guid id)
-        {
-            Id = id;
-        }
+        public Guid Id { get; set; } = id;
     }
 
-    
+
 }

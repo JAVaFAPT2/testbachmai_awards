@@ -1,4 +1,4 @@
-﻿using Application.Features.Humans.Queries;
+﻿using Aplication.service.HumanData.Queries;
 using Domain.Models;
 using MediatR;
 using MongoDB.Driver;
@@ -10,14 +10,9 @@ using System.Threading.Tasks;
 
 namespace Aplication.service.HumanData.Commands.Handler
 {
-    public class GetPeoplesByEmailQueryHandler : IRequestHandler<GetPeoplesByEmailQuery, Person?>
+    public class GetPeoplesByEmailQueryHandler(IMongoCollection<Person> peopleCollection) : IRequestHandler<GetPeoplesByEmailQuery, Person?>
     {
-        private readonly IMongoCollection<Person> _peopleCollection;
-
-        public GetPeoplesByEmailQueryHandler(IMongoCollection<Person> peopleCollection)
-        {
-            _peopleCollection = peopleCollection;
-        }
+        private readonly IMongoCollection<Person> _peopleCollection = peopleCollection;
 
         public async Task<Person?> Handle(GetPeoplesByEmailQuery query, CancellationToken cancellationToken)
         {

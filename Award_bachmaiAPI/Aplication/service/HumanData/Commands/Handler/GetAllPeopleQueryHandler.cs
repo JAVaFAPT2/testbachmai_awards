@@ -2,19 +2,14 @@
 using MongoDB.Driver;
 using System.Threading.Tasks;
 using Domain.Models;
-using Application.Features.Humans.Queries;
+using Aplication.service.HumanData.Queries;
 
 
-namespace Application.Features.People.Queries
+namespace Aplication.service.HumanData.Commands.Handler
 {
-    public class GetAllPeopleQueryHandler : IRequestHandler<GetAllPeoplesQueries, IEnumerable<Person>>
+    public class GetAllPeopleQueryHandler(IMongoCollection<Person> peopleCollection) : IRequestHandler<GetAllPeoplesQueries, IEnumerable<Person>>
     {
-        private readonly IMongoCollection<Person> _peopleCollection;
-
-        public GetAllPeopleQueryHandler(IMongoCollection<Person> peopleCollection)
-        {
-            _peopleCollection = peopleCollection;
-        }
+        private readonly IMongoCollection<Person> _peopleCollection = peopleCollection;
 
         public async Task<IEnumerable<Person>> Handle(GetAllPeoplesQueries query, CancellationToken cancellationToken = default)
         {

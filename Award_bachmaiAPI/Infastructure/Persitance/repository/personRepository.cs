@@ -3,10 +3,10 @@ using Domain.Models;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Domain.Interfaces;
 using Infastructure.Persitance.DbContext;
+using Domain.Interface;
 
-namespace Infrastructure.Persistence.Repositories
+namespace Infastructure.Persitance.repository
 {
     public class PersonRepository : IPersonRepository
     {

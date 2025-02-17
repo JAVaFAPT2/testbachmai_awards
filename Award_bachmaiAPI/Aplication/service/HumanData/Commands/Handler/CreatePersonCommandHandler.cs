@@ -2,20 +2,15 @@
 using MongoDB.Driver;
 using System.Threading.Tasks;
 using Domain.Models;
-using Domain.Interfaces;
 using Domain.models;
 using Aplication.service.DTO;
+using Domain.Interface;
 
 namespace Aplication.service.HumanData.Commands.Handler
 {
-    public class CreatePersonCommandHandler : IRequestHandler<CreatePersonCommand, Person>
+    public class CreatePersonCommandHandler(IPersonRepository personRepository) : IRequestHandler<CreatePersonCommand, Person>
     {
-        private readonly IPersonRepository _personRepository;
-
-        public CreatePersonCommandHandler(IPersonRepository personRepository)
-        {
-            _personRepository = personRepository;
-        }
+        private readonly IPersonRepository _personRepository = personRepository;
 
         public async Task<Person> Handle(CreatePersonCommand command, CancellationToken cancellationToken)
         {

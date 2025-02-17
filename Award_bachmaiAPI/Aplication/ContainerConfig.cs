@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Aplication.service.HumanData.Commands.Handler;
-using Application.Features.People.Queries;
 using Autofac;
 using Autofac.Features.Variance;
 

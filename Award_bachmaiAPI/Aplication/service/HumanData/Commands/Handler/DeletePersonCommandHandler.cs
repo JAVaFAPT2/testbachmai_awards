@@ -2,25 +2,20 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Domain.Interfaces;
+using Domain.Interface;
 
 namespace Aplication.service.HumanData.Commands.Handler
 {
-    public class DeletePersonCommandHandler : IRequestHandler<DeletePersonCommand, Unit>
+    public class DeletePersonCommandHandler(IPersonRepository personRepository) : IRequestHandler<DeletePersonCommand, Unit>
     {
-        private readonly IPersonRepository _personRepository;
-
-        public DeletePersonCommandHandler(IPersonRepository personRepository)
-        {
-            _personRepository = personRepository;
-        }
+        private readonly IPersonRepository _personRepository = personRepository ?? throw new ArgumentNullException(nameof(personRepository));
 
         public async Task<Unit> Handle(DeletePersonCommand command, CancellationToken cancellationToken)
         {
             // Validate that Id is not empty
             if (command.Id == Guid.Empty)
             {
-                throw new ArgumentException("Person Id cannot be empty.", nameof(command.Id));
+                throw new ArgumentException("Person Id cannot be empty.", nameof(command));
             }
 
             // Call the repository to delete the person

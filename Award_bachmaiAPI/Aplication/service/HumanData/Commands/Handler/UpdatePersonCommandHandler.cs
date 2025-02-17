@@ -1,31 +1,22 @@
 ﻿using MediatR;
 using Domain.Models;
-using Domain.Interfaces;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Linq;
 using Domain.models;
+using Domain.Interface;
 
 namespace Aplication.service.HumanData.Commands.Handler
 {
-    public class UpdatePersonCommandHandler : IRequestHandler<UpdatePersonCommand, Person>
+    public class UpdatePersonCommandHandler(IPersonRepository personRepository) : IRequestHandler<UpdatePersonCommand, Person>
     {
-        private readonly IPersonRepository _personRepository;
-
-        public UpdatePersonCommandHandler(IPersonRepository personRepository)
-        {
-            _personRepository = personRepository;
-        }
+        private readonly IPersonRepository _personRepository = personRepository;
 
         public async Task<Person> Handle(UpdatePersonCommand command, CancellationToken cancellationToken = default)
         {
             // Retrieve the existing person from the repository
-            var existingPerson = await _personRepository.GetByIdAsync(command.Id);
-            if (existingPerson == null)
-            {
-                throw new KeyNotFoundException($"Person with Id {command.Id} not found.");
-            }
+            var existingPerson = await _personRepository.GetByIdAsync(command.Id) ?? throw new KeyNotFoundException($"Person with Id {command.Id} not found.");
 
             // Update only the fields that can be changed
             existingPerson.Name = command.Name;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Aplication.service.DTO
 {
-    public class EmailDto
+    public record class EmailDto
     {
         public string? Address { get; set; }
         public string? Label { get; set; }
