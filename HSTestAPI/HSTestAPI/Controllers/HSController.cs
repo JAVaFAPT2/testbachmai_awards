@@ -1,32 +1,32 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MongoDB.Bson;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using TestHsAPI.Models;
 using TestHsAPI.service;
 
 namespace TestHsAPI.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
-    public class HSController : ControllerBase
+    [Route("api/[controller]")]
+    public class HsController : ControllerBase
     {
         private readonly HSService _hsService;
 
-        public HSController(HSService hsService)
+        public HsController(HSService hsService)
         {
             _hsService = hsService;
         }
 
-        // GET: api/<HSController>
         [HttpGet]
-        public async Task<ActionResult<List<Hs>>> Get()
+        public async Task<IActionResult> GetAll()
         {
             var hsList = await _hsService.GetAllAsync();
             return Ok(hsList);
         }
 
-        // GET api/<HSController>/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Hs>> Get(string id)
+        public async Task<IActionResult> GetById(string id)
         {
             var hs = await _hsService.GetByIdAsync(id);
             if (hs == null)
@@ -36,17 +36,15 @@ namespace TestHsAPI.Controllers
             return Ok(hs);
         }
 
-        // POST api/<HSController>
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] Hs hs)
+        public async Task<IActionResult> Create(Hs hs)
         {
             await _hsService.CreateAsync(hs);
-            return CreatedAtAction(nameof(Get), new { id = hs.Id }, hs);
+            return CreatedAtAction(nameof(GetById), new { id = hs.Id }, hs);
         }
 
-        // PUT api/<HSController>/5
         [HttpPut("{id}")]
-        public async Task<ActionResult> Put(string id, [FromBody] Hs updatedHs)
+        public async Task<IActionResult> Update(string id, Hs updatedHs)
         {
             var hs = await _hsService.GetByIdAsync(id);
             if (hs == null)
@@ -57,9 +55,8 @@ namespace TestHsAPI.Controllers
             return NoContent();
         }
 
-        // DELETE api/<HSController>/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult> Delete(string id)
+        public async Task<IActionResult> Delete(string id)
         {
             var hs = await _hsService.GetByIdAsync(id);
             if (hs == null)
@@ -70,12 +67,57 @@ namespace TestHsAPI.Controllers
             return NoContent();
         }
 
-        // GET api/<HSController>/aggregated
         [HttpGet("aggregated")]
-        public async Task<ActionResult<List<BsonDocument>>> GetAggregatedData()
+        public async Task<IActionResult> GetAggregatedData()
         {
             var aggregatedData = await _hsService.GetAggregatedDataAsync();
             return Ok(aggregatedData);
+        }
+
+        [HttpGet("{id}/fullname")]
+        public async Task<IActionResult> GetFullName(string id)
+        {
+            var fullName = await _hsService.GetFullNameAsync(id);
+            if (fullName == null)
+            {
+                return NotFound();
+            }
+            return Ok(fullName);
+        }
+
+        [HttpGet("maxprice")]
+        public async Task<IActionResult> GetMaxPrice()
+        {
+            var maxPrice = await _hsService.GetMaxPriceAsync();
+            return Ok(maxPrice);
+        }
+
+        [HttpGet("minprice")]
+        public async Task<IActionResult> GetMinPrice()
+        {
+            var minPrice = await _hsService.GetMinPriceAsync();
+            return Ok(minPrice);
+        }
+
+        [HttpGet("search/daterange")]
+        public async Task<IActionResult> SearchByDateRange(DateTime startDate, DateTime endDate)
+        {
+            var results = await _hsService.SearchByDateRangeAsync(startDate, endDate);
+            return Ok(results);
+        }
+
+        [HttpGet("search/keyword")]
+        public async Task<IActionResult> SearchByKeyword(string keyword)
+        {
+            var results = await _hsService.SearchByKeywordAsync(keyword);
+            return Ok(results);
+        }
+
+        [HttpGet("search/name")]
+        public async Task<IActionResult> SearchByName(string name)
+        {
+            var results = await _hsService.SearchByNameAsync(name);
+            return Ok(results);
         }
     }
 }

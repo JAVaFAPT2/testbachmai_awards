@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HSTestAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8a9867ee860d83dc7b207b677c74f68c6728dda")]
 [assembly: System.Reflection.AssemblyProductAttribute("HSTestAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HSTestAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

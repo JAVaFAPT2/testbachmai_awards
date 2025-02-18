@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dangn\\source\\repos\\HSTestAPI\\HSTestAPI\\HSTestAPI.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\HSTestAPI\\HSTestAPI\\HSTestAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dangn\\source\\repos\\HSTestAPI\\HSTestAPI\\HSTestAPI.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\HSTestAPI\\HSTestAPI\\HSTestAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dangn\\source\\repos\\HSTestAPI\\HSTestAPI\\HSTestAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\HSTestAPI\\HSTestAPI\\HSTestAPI.csproj",
         "projectName": "HSTestAPI",
-        "projectPath": "C:\\Users\\dangn\\source\\repos\\HSTestAPI\\HSTestAPI\\HSTestAPI.csproj",
-        "packagesPath": "C:\\Users\\dangn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dangn\\source\\repos\\HSTestAPI\\HSTestAPI\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\HSTestAPI\\HSTestAPI\\HSTestAPI.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\HSTestAPI\\HSTestAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dangn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
