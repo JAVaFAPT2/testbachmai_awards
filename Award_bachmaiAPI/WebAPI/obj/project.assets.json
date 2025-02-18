@@ -9315,6 +9315,10 @@
       "Microsoft.AspNetCore.Http >= 2.3.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.2",
       "Microsoft.Extensions.Logging >= 8.0.2",
+      "MongoDB.Bson >= 3.2.0",
+      "MongoDB.Driver >= 3.2.0",
+      "MongoDB.Driver.Core >= 2.30.0",
+      "MongoDB.EntityFrameworkCore >= 8.2.2",
       "Pomelo.EntityFrameworkCore.MySql >= 8.0.2",
       "System.Net.Http >= 4.3.4"
     ]
@@ -9397,6 +9401,22 @@
           "Microsoft.Extensions.Logging": {
             "target": "Package",
             "version": "[8.0.2, )"
+          },
+          "MongoDB.Bson": {
+            "target": "Package",
+            "version": "[3.2.0, )"
+          },
+          "MongoDB.Driver": {
+            "target": "Package",
+            "version": "[3.2.0, )"
+          },
+          "MongoDB.Driver.Core": {
+            "target": "Package",
+            "version": "[2.30.0, )"
+          },
+          "MongoDB.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.2.2, )"
           },
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",

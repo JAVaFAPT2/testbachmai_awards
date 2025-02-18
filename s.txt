@@ -1,0 +1,15 @@
+su dung mogodb de tao dulieu tuyen sinh cua Aptech 
+data: 
+first name,last name , phonenumber,somondangki , price , ngay dang ki
+neu hs dang ki tu 2 mon den 3 mon dc giam gia 20% tu 4 mon tro len dc giam gia 35%
+neu hs dang ki vao thang 2/2025 dc giam gia 30%.
+dieu kien khuyen mai dc ap dung 1 trong 2
+viet c# api de thuc hien ap dung su li aggregation 
+service give full name 
+get max
+get min
+search with all way 
+search with datetime
+search with keyword
+search name 
+

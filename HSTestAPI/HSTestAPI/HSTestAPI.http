@@ -1,0 +1,6 @@
+@HSTestAPI_HostAddress = http://localhost:5170
+
+GET {{HSTestAPI_HostAddress}}
+Accept: application/json
+
+###

@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dangn\\source\\repos\\HSTestAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40478AE9-7DEE-40BB-B7AD-0E2A34423A08}|HSTestAPI\\HSTestAPI.csproj|c:\\users\\dangn\\source\\repos\\hstestapi\\hstestapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40478AE9-7DEE-40BB-B7AD-0E2A34423A08}|HSTestAPI\\HSTestAPI.csproj|solutionrelative:hstestapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40478AE9-7DEE-40BB-B7AD-0E2A34423A08}|HSTestAPI\\HSTestAPI.csproj|c:\\users\\dangn\\source\\repos\\hstestapi\\hstestapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{40478AE9-7DEE-40BB-B7AD-0E2A34423A08}|HSTestAPI\\HSTestAPI.csproj|solutionrelative:hstestapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40478AE9-7DEE-40BB-B7AD-0E2A34423A08}|HSTestAPI\\HSTestAPI.csproj|c:\\users\\dangn\\source\\repos\\hstestapi\\hstestapi\\service\\hsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40478AE9-7DEE-40BB-B7AD-0E2A34423A08}|HSTestAPI\\HSTestAPI.csproj|solutionrelative:hstestapi\\service\\hsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40478AE9-7DEE-40BB-B7AD-0E2A34423A08}|HSTestAPI\\HSTestAPI.csproj|c:\\users\\dangn\\source\\repos\\hstestapi\\hstestapi\\models\\hs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40478AE9-7DEE-40BB-B7AD-0E2A34423A08}|HSTestAPI\\HSTestAPI.csproj|solutionrelative:hstestapi\\models\\hs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40478AE9-7DEE-40BB-B7AD-0E2A34423A08}|HSTestAPI\\HSTestAPI.csproj|c:\\users\\dangn\\source\\repos\\hstestapi\\hstestapi\\controllers\\hscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40478AE9-7DEE-40BB-B7AD-0E2A34423A08}|HSTestAPI\\HSTestAPI.csproj|solutionrelative:hstestapi\\controllers\\hscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40478AE9-7DEE-40BB-B7AD-0E2A34423A08}|HSTestAPI\\HSTestAPI.csproj|c:\\users\\dangn\\source\\repos\\hstestapi\\hstestapi\\hstestapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{40478AE9-7DEE-40BB-B7AD-0E2A34423A08}|HSTestAPI\\HSTestAPI.csproj|solutionrelative:hstestapi\\hstestapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40478AE9-7DEE-40BB-B7AD-0E2A34423A08}|HSTestAPI\\HSTestAPI.csproj|c:\\users\\dangn\\source\\repos\\hstestapi\\hstestapi\\service\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40478AE9-7DEE-40BB-B7AD-0E2A34423A08}|HSTestAPI\\HSTestAPI.csproj|solutionrelative:hstestapi\\service\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40478AE9-7DEE-40BB-B7AD-0E2A34423A08}|HSTestAPI\\HSTestAPI.csproj|c:\\users\\dangn\\source\\repos\\hstestapi\\hstestapi\\hstestapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{40478AE9-7DEE-40BB-B7AD-0E2A34423A08}|HSTestAPI\\HSTestAPI.csproj|solutionrelative:hstestapi\\hstestapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HSService.cs",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\HSTestAPI\\HSTestAPI\\service\\HSService.cs",
+              "RelativeDocumentMoniker": "HSTestAPI\\service\\HSService.cs",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\HSTestAPI\\HSTestAPI\\service\\HSService.cs",
+              "RelativeToolTip": "HSTestAPI\\service\\HSService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA0wDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T13:03:22.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HSController.cs",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\HSTestAPI\\HSTestAPI\\Controllers\\HSController.cs",
+              "RelativeDocumentMoniker": "HSTestAPI\\Controllers\\HSController.cs",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\HSTestAPI\\HSTestAPI\\Controllers\\HSController.cs",
+              "RelativeToolTip": "HSTestAPI\\Controllers\\HSController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAjwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T13:03:04.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HSTestAPI",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\HSTestAPI\\HSTestAPI\\HSTestAPI.csproj",
+              "RelativeDocumentMoniker": "HSTestAPI\\HSTestAPI.csproj",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\HSTestAPI\\HSTestAPI\\HSTestAPI.csproj",
+              "RelativeToolTip": "HSTestAPI\\HSTestAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-17T13:00:54.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\HSTestAPI\\HSTestAPI\\Program.cs",
+              "RelativeDocumentMoniker": "HSTestAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\HSTestAPI\\HSTestAPI\\Program.cs",
+              "RelativeToolTip": "HSTestAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T13:01:24.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HSTestAPI.http",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\HSTestAPI\\HSTestAPI\\HSTestAPI.http",
+              "RelativeDocumentMoniker": "HSTestAPI\\HSTestAPI.http",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\HSTestAPI\\HSTestAPI\\HSTestAPI.http",
+              "RelativeToolTip": "HSTestAPI\\HSTestAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-02-17T13:05:54.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Hs.cs",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\HSTestAPI\\HSTestAPI\\Models\\Hs.cs",
+              "RelativeDocumentMoniker": "HSTestAPI\\Models\\Hs.cs",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\HSTestAPI\\HSTestAPI\\Models\\Hs.cs",
+              "RelativeToolTip": "HSTestAPI\\Models\\Hs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T13:06:16.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DiscountService.cs",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\HSTestAPI\\HSTestAPI\\service\\DiscountService.cs",
+              "RelativeDocumentMoniker": "HSTestAPI\\service\\DiscountService.cs",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\HSTestAPI\\HSTestAPI\\service\\DiscountService.cs",
+              "RelativeToolTip": "HSTestAPI\\service\\DiscountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T13:03:30.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dangn\\source\\repos\\HSTestAPI\\HSTestAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "HSTestAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\dangn\\source\\repos\\HSTestAPI\\HSTestAPI\\appsettings.json",
+              "RelativeToolTip": "HSTestAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-17T13:01:19.299Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

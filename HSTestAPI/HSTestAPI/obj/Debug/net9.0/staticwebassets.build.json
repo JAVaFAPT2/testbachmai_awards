@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "LruL7tbKhEH2oiBQVrZpccwmGzTawnCeGNptw3SC/XI=",
+  "Source": "HSTestAPI",
+  "BasePath": "_content/HSTestAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
