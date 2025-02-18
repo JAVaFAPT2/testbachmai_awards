@@ -1,0 +1,16 @@
+﻿using Domain.models;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace Infrastructure.Persistence.Repositories
+{
+    public interface ICountryRepository
+    {
+        Task<Country> AddAsync(Country country);
+        Task<Country> GetByIdAsync(string id);
+        Task<IEnumerable<Country>> GetAllAsync();
+        Task UpdateAsync(Country country);
+        Task DeleteAsync(string id);
+    }
+}
