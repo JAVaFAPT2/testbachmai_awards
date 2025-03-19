@@ -1,4 +1,5 @@
 ﻿using Aplication.service.HumanData.Commands.Handler;
+using Application.Service.HumanData.Commands.Handler;
 using Autofac;
 using Autofac.Features.Variance;
 
@@ -27,6 +28,10 @@ public static class ContainerConfig
             .AsImplementedInterfaces();
 
         builder.RegisterType<GetPeoplesByEmailQueryHandler>()
+            .AsImplementedInterfaces();
+        builder.RegisterType<LoginQueriesHandler>()
+            .AsImplementedInterfaces();
+        builder.RegisterType<RegisterCommandHandler>()
             .AsImplementedInterfaces();
         //Add more here
         return builder;

@@ -1,6 +1,8 @@
+using System.Configuration;
 using System.Reflection;
 using Aplication.service.HumanData.Commands;
 using Autofac;
+using Autofac.Core;
 using Autofac.Extensions.DependencyInjection;
 using Domain.Interface;
 using Infastructure.Persitance;
@@ -19,10 +21,10 @@ builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
 {
     // Register your application services
-    containerBuilder.RegisterType<BachAwardDbContext>()
-        .AsSelf()
-        .WithParameter("connectionString",
-            builder.Configuration.GetConnectionString("MongoDB") ?? throw new InvalidOperationException());
+    //containerBuilder.RegisterType<BachAwardDbContext>()
+    //    .AsSelf()
+    //    .WithParameter("connectionString",
+    //        builder.Configuration.GetConnectionString("MongoDB") ?? throw new InvalidOperationException());
 
     // Register repositories
     containerBuilder.RegisterType<PersonRepository>().As<IPersonRepository>();
@@ -32,16 +34,19 @@ builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
         .AsClosedTypesOf(typeof(IRequestHandler<,>))
         .InstancePerLifetimeScope();
 
+
     // Optionally, if you have other handlers in different assemblies:
     containerBuilder.RegisterAssemblyTypes(Assembly.GetExecutingAssembly())
         .AsClosedTypesOf(typeof(IRequestHandler<,>))
         .InstancePerLifetimeScope();
 });
 // Configure MySQL DbContext
-builder.Services.AddDbContext<MySqlDbContext>(options =>
-    options.UseMySql(builder.Configuration.GetConnectionString("MySqlConnection"),
-        new MySqlServerVersion(new Version(8, 0, 21))));
+//builder.Services.AddDbContext<MySqlDbContext>(options =>
+//    options.UseMySql(builder.Configuration.GetConnectionString("MySqlConnection"),
+//        new MySqlServerVersion(new Version(8, 0, 21))));
 
+builder.Services.AddDbContext<WebAPIContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("WebAPIContext")));
 
 // Add services to the container.
 builder.Services.AddControllers();

@@ -5,10 +5,14 @@ using MediatR;
 
 namespace Aplication.service.HumanData.Commands.Handler;
 
-public class CreatePersonCommandHandler(IPersonRepository personRepository)
-    : IRequestHandler<CreatePersonCommand, Person>
+public class CreatePersonCommandHandler : IRequestHandler<CreatePersonCommand, Person>
 {
-    private readonly IPersonRepository _personRepository = personRepository;
+    private readonly IPersonRepository _personRepository;
+
+    public CreatePersonCommandHandler(IPersonRepository personRepository)
+    {
+        _personRepository = personRepository;
+    }
 
     public async Task<Person> Handle(CreatePersonCommand command, CancellationToken cancellationToken)
     {
@@ -25,7 +29,7 @@ public class CreatePersonCommandHandler(IPersonRepository personRepository)
             Notes = command.Notes,
             Emails = command.Emails.Select(e => new Email { Address = e.Address, Label = e.Label }).ToList(),
             PhoneNumbers = command.PhoneNumbers.Select(pn => new PhoneNumber
-                { CountryCode = pn.CountryCode, Number = pn.Number, Label = pn.Label }).ToList(),
+            { CountryCode = pn.CountryCode, Number = pn.Number, Label = pn.Label }).ToList(),
             CountryId = command.CountryId,
             TagIds = command.TagIds
         };
