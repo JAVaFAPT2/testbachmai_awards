@@ -1,23 +1,21 @@
 ﻿using Domain.models;
 using Domain.Models;
 using MongoDB.Driver;
-using System;
-using System.Threading.Tasks;
+using Tag = Domain.models.Tag;
 
-namespace Infastructure.Persitance.DbContext
+namespace Infastructure.Persitance.DbContext;
+
+public class BachAwardDbContext
 {
-    public class BachAwardDbContext
+    private readonly IMongoDatabase _database;
+
+    public BachAwardDbContext(string connectionString)
     {
-        private readonly IMongoDatabase _database;
-
-        public BachAwardDbContext(string connectionString)
-        {
-            var client = new MongoClient(connectionString);
-            _database = client.GetDatabase("test");
-        }
-
-        public IMongoCollection<Person> People => _database.GetCollection<Person>("people");
-        public IMongoCollection<Country> Countries => _database.GetCollection<Country>("countries");
-        public IMongoCollection<Domain.models.Tag> Tags => _database.GetCollection<Domain.models.Tag>("tags");
+        var client = new MongoClient(connectionString);
+        _database = client.GetDatabase("test");
     }
+
+    public IMongoCollection<Person> People => _database.GetCollection<Person>("people");
+    public IMongoCollection<Country> Countries => _database.GetCollection<Country>("countries");
+    public IMongoCollection<Tag> Tags => _database.GetCollection<Tag>("tags");
 }

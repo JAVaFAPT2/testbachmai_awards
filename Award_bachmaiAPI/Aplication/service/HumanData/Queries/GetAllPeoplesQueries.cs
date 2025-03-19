@@ -1,13 +1,8 @@
-﻿using MediatR;
-using MongoDB.Driver;
-using System.Threading.Tasks;
-using System.Collections.Generic;
-using Domain.Models;
-using System.Security.Cryptography;
+﻿using Domain.Models;
+using MediatR;
 
-namespace Aplication.service.HumanData.Queries
+namespace Aplication.service.HumanData.Queries;
+
+public class GetAllPeoplesQueries : IRequest<IEnumerable<Person>>
 {
-    public class GetAllPeoplesQueries : IRequest<IEnumerable<Person>>
-    {
-    }
 }

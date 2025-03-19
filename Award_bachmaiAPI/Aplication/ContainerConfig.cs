@@ -1,40 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Aplication.service.HumanData.Commands.Handler;
+﻿using Aplication.service.HumanData.Commands.Handler;
 using Autofac;
 using Autofac.Features.Variance;
 
-namespace Aplication
+namespace Aplication;
+
+public static class ContainerConfig
 {
-    public static class ContainerConfig
+    public static ContainerBuilder AddGenericHandlers(this ContainerBuilder builder)
     {
-        public static ContainerBuilder AddGenericHandlers(this ContainerBuilder builder)
-        {
-            builder.RegisterSource(new ContravariantRegistrationSource());
+        builder.RegisterSource(new ContravariantRegistrationSource());
 
-            // Register command and query handlers
-            builder.RegisterType<CreatePersonCommandHandler>()
-                   .AsImplementedInterfaces();
+        // Register command and query handlers
+        builder.RegisterType<CreatePersonCommandHandler>()
+            .AsImplementedInterfaces();
 
-            builder.RegisterType<DeletePersonCommandHandler>()
-                   .AsImplementedInterfaces();
+        builder.RegisterType<DeletePersonCommandHandler>()
+            .AsImplementedInterfaces();
 
-            builder.RegisterType<UpdatePersonCommandHandler>()
-                .AsImplementedInterfaces();
+        builder.RegisterType<UpdatePersonCommandHandler>()
+            .AsImplementedInterfaces();
 
-            builder.RegisterType<GetAllPeopleQueryHandler>()
-                .AsImplementedInterfaces();
+        builder.RegisterType<GetAllPeopleQueryHandler>()
+            .AsImplementedInterfaces();
 
-            builder.RegisterType<GetPersonByIdQueryHandler>()
-                .AsImplementedInterfaces();
+        builder.RegisterType<GetPersonByIdQueryHandler>()
+            .AsImplementedInterfaces();
 
-            builder.RegisterType<GetPeoplesByEmailQueryHandler>()
-                .AsImplementedInterfaces();
-            //Add more here
-            return builder;
-        }
+        builder.RegisterType<GetPeoplesByEmailQueryHandler>()
+            .AsImplementedInterfaces();
+        //Add more here
+        return builder;
     }
 }

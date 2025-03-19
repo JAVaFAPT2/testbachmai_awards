@@ -1,15 +1,9 @@
-﻿using MediatR;
-using MongoDB.Driver;
-using System.Threading.Tasks;
-using System;
-using Domain.Models;
+﻿using Domain.Models;
+using MediatR;
 
-namespace Aplication.service.HumanData.Queries
+namespace Aplication.service.HumanData.Queries;
+
+public class GetPeoplesByIdQuery(Guid id) : IRequest<Person>
 {
-    public class GetPeoplesByIdQuery(Guid id) : IRequest<Person>
-    {
-        public Guid Id { get; set; } = id;
-    }
-
-
+    public Guid Id { get; set; } = id;
 }

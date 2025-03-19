@@ -13,3 +13,15 @@ search with datetime
 search with keyword
 search name 
 
+using unwind, look up
+xay dung truong chinh quan li hoc tap tai apptech bao gom co cac thong tin nhu sau 
+-Class:danh sach sinh vien : idHs,name,hobby[String],subject    (mockup)sao cho thiep lap moi quan he giua lop hoc va mon hoc. Su dung lookup de thiep lap moi quan he giua
+lop hoc va mon hoc ap dung look up kethop hop voi unwind de show data SinhVien lopHoc va tung so thich
+-thong ke va sap sep so luong cua hoc sinh theo tung so thich (group+unwind+count)
+-yeu cau xay dung code API SU dung ASP.net core api va nodeJS
+
+
+
+viet 1 truong trinh + 2 phan so su dung if elfs if lamda distionnary
+
+su dung kieu so phuc de giai Phuong trinh bac 2 voi truong hop delta < 0

@@ -1,14 +1,9 @@
-﻿using MediatR;
-using MongoDB.Driver;
-using System.Threading.Tasks;
-using Domain.Models;
+﻿using Domain.Models;
+using MediatR;
 
-namespace Aplication.service.HumanData.Queries
+namespace Aplication.service.HumanData.Queries;
+
+public class GetPeoplesByEmailQuery(string email) : IRequest<Person?>
 {
-    public class GetPeoplesByEmailQuery(string email) : IRequest<Person?>
-    {
-        public string Email { get; set; } = email;
-    }
-
-
+    public string Email { get; set; } = email;
 }
