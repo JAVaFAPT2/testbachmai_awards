@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "WebAPI.Controllers.AuthsController",
+    "Method": "Login",
+    "RelativePath": "api/Auths/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginQuery",
+        "Type": "Aplication.service.HumanData.Queries.LoginQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.AuthsController",
+    "Method": "Register",
+    "RelativePath": "api/Auths/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerCommand",
+        "Type": "Aplication.service.HumanData.Commands.RegisterCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebAPI.Controllers.PeopleController",
     "Method": "CreatePerson",
     "RelativePath": "api/People",

@@ -1,5 +1,6 @@
 using System.Configuration;
 using System.Reflection;
+using System.Text;
 using Aplication.service.HumanData.Commands;
 using Autofac;
 using Autofac.Core;
@@ -10,7 +11,9 @@ using Infastructure.Persitance.DbContext;
 using Infastructure.Persitance.repository;
 using Infastructure.Security;
 using MediatR;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,25 +31,52 @@ builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
 
     // Register repositories
     containerBuilder.RegisterType<PersonRepository>().As<IPersonRepository>();
+    containerBuilder.RegisterType<AuthRepository>().As<IAuthRepository>();
 
     // Register MediatR handlers from the Application assembly
     containerBuilder.RegisterAssemblyTypes(typeof(CreatePersonCommand).Assembly)
         .AsClosedTypesOf(typeof(IRequestHandler<,>))
         .InstancePerLifetimeScope();
-
+    containerBuilder.RegisterAssemblyTypes(typeof(RegisterCommand).Assembly)
+        .AsClosedTypesOf(typeof(IRequestHandler<,>))
+        .InstancePerLifetimeScope();
 
     // Optionally, if you have other handlers in different assemblies:
     containerBuilder.RegisterAssemblyTypes(Assembly.GetExecutingAssembly())
         .AsClosedTypesOf(typeof(IRequestHandler<,>))
         .InstancePerLifetimeScope();
+
 });
 // Configure MySQL DbContext
 //builder.Services.AddDbContext<MySqlDbContext>(options =>
 //    options.UseMySql(builder.Configuration.GetConnectionString("MySqlConnection"),
 //        new MySqlServerVersion(new Version(8, 0, 21))));
 
+
+
 builder.Services.AddDbContext<WebAPIContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("WebAPIContext")));
+
+
+var key = Encoding.ASCII.GetBytes("Jwt:Key");
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.RequireHttpsMetadata = false;
+    options.SaveToken = true;
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = false,
+        ValidateAudience = false,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(key)
+    };
+});
 
 // Add services to the container.
 builder.Services.AddControllers();

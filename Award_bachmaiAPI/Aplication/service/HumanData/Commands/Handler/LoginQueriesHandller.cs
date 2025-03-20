@@ -5,7 +5,7 @@ using Domain.Interface;
 using Domain.models;
 using MediatR;
 
-namespace Application.Service.HumanData.Commands.Handler
+namespace Aplication.service.HumanData.Commands.Handler
 {
     internal class LoginQueriesHandler : IRequestHandler<LoginQuery, Auth>
     {
@@ -28,4 +28,3 @@ namespace Application.Service.HumanData.Commands.Handler
         }
     }
 }
-

@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infastructure.Persitance.repository
 {
-    internal class AuthRepository : IAuthRepository
+    public class AuthRepository : IAuthRepository
     {
         private readonly WebAPIContext _context;
 
@@ -22,7 +22,7 @@ namespace Infastructure.Persitance.repository
         public async Task<Auth> LoginAsync(string username, string password)
         {
             var user = await _context.Auths.FirstOrDefaultAsync(u => u.Username == username);
-            if (user == null || !VerifyPassword(user, password))
+            if (user == null || !BCrypt.Net.BCrypt.Verify(password, user.Password))
             {
                 return null; // or throw an exception
             }
@@ -30,14 +30,14 @@ namespace Infastructure.Persitance.repository
             return user;
         }
 
-        public async Task<Auth> RegisterAsync(Auth user, string password)
+       public async Task<Auth> RegisterAsync(Auth user, string password)
         {
             if (await UserExistsAsync(user.Username))
             {
                 throw new ArgumentException("Username already exists.");
             }
 
-            user.Password = HashPassword(password);
+            user.Password = BCrypt.Net.BCrypt.HashPassword(password);
             _context.Auths.Add(user);
             await _context.SaveChangesAsync();
 

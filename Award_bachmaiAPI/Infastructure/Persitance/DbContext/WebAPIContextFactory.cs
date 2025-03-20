@@ -1,4 +1,4 @@
-﻿using Microsoft.Extensions.Configuration; 
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using System.IO;
@@ -14,7 +14,7 @@ namespace Infastructure.Persistence.DbContext
 
             // Correctly using SetBasePath method
             var configuration = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory()) 
+                .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
                 .Build();
 

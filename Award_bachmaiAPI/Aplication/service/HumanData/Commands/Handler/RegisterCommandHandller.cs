@@ -1,14 +1,13 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 using Aplication.service.HumanData.Commands;
-using Application.Service.HumanData.Commands;
 using Domain.Interface;
 using Domain.models;
 using MediatR;
 
 namespace Aplication.service.HumanData.Commands.Handler
 {
-    public class RegisterCommandHandler : IRequestHandler<RegisterCommand, Auth>
+    internal class RegisterCommandHandler : IRequestHandler<RegisterCommand, Auth>
     {
         private readonly IAuthRepository _authRepository;
 
@@ -22,7 +21,7 @@ namespace Aplication.service.HumanData.Commands.Handler
             var user = new Auth
             {
                 Username = request.Username,
-                Password = request.Password 
+                Password = request.Password
             };
 
             var registeredUser = await _authRepository.RegisterAsync(user, request.Password);
@@ -30,5 +29,3 @@ namespace Aplication.service.HumanData.Commands.Handler
         }
     }
 }
-
-
