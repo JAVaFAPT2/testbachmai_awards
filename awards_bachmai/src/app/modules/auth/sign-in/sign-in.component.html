@@ -15,7 +15,7 @@
                 class="mt-8 text-4xl font-extrabold leading-tight tracking-tight"
             >
                Đăng nhập
-            </div>                      
+            </div>
             <!-- Sign in form -->
             <form class="mt-8" [formGroup]="signInForm" #signInNgForm="ngForm">
                 <!-- Email field -->
@@ -24,7 +24,7 @@
                     <input id="username" matInput [formControlName]="'username'" />
                     @if (signInForm.get('username').hasError('required')) {
                         <mat-error> Bắt buộc phải nhập thông tin tài khoản </mat-error>
-                    }                   
+                    }
                 </mat-form-field>
 
                 <!-- Password field -->
@@ -73,7 +73,7 @@
                         [formControlName]="'rememberMe'"
                     >
                         Remember me
-                    </mat-checkbox>                  
+                    </mat-checkbox>
                 </div>
 
                 <!-- Submit button -->
@@ -93,7 +93,18 @@
                             [mode]="'indeterminate'"
                         ></mat-progress-spinner>
                     }
-                </button>                   
+                </button>
+                <div class="mt-6 text-center">
+    <span class="text-sm text-gray-500">
+        Don't have an account?
+    </span>
+                    <a
+                        routerLink="/sign-up"
+                        class="ml-2 text-sm font-medium text-primary"
+                    >
+                        Register
+                    </a>
+                </div>
             </form>
         </div>
     </div>
@@ -129,7 +140,7 @@
             </div>
             <div class="mt-6 text-lg leading-6 tracking-tight text-gray-400">
                 Giải thưởng ấn tượng tượng mai 2025, nhằm tôn vinh tập thể, cá nhân có thành tích gây ấn tượng mạnh mẽ và có tầm ảnh hưởng sâu và rộng trong cộng đồng !
-            </div>            
+            </div>
         </div>
     </div>
 </div>

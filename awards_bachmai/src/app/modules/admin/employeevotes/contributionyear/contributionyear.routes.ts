@@ -5,11 +5,12 @@ import {
     RouterStateSnapshot,
     Routes,
 } from '@angular/router';
-import { InspirationalpersonyearComponent } from './inspirationalpersonyear.component';
+
 import { ContactsService } from './contacts.service';
 import { ContributionyearlistComponent } from './contributionyearlist/contributionyearlist.component';
 import { InspirationalpersonyeardetailComponent } from '././contributionyear/inspirationalpersonyeardetail.component';
 import { catchError, throwError } from 'rxjs';
+import { InspirationalpersonyearComponent } from '../inspirationalpersonyear/inspirationalpersonyear.component';
 
 /**
  * Contact resolver

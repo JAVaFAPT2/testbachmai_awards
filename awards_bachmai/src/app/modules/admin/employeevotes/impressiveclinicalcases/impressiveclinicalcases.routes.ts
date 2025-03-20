@@ -5,11 +5,12 @@ import {
     RouterStateSnapshot,
     Routes,
 } from '@angular/router';
-import { InspirationalpersonyearComponent } from './inspirationalpersonyear.component';
+
 import { ContactsService } from './contacts.service';
 import { ImpressiveclinicalcaseslistComponent } from './impressiveclinicalcaseslist/impressiveclinicalcaseslist.component';
 import { ImpressiveclinicalcasesdetailComponent } from './impressiveclinicalcasesdetail/impressiveclinicalcasesdetail.component';
 import { catchError, throwError } from 'rxjs';
+import { InspirationalpersonyearComponent } from '../inspirationalpersonyear/inspirationalpersonyear.component';
 
 /**
  * Contact resolver

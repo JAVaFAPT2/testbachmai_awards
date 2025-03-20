@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="990e4f57-223e-4249-8467-86f282f6703d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Award_bachmaiAPI/.vs/Award_bachmaiAPI/CopilotIndices/17.12.31.40377/CodeChunks.db" beforeDir="false" afterPath="$PROJECT_DIR$/Award_bachmaiAPI/.vs/Award_bachmaiAPI/CopilotIndices/17.12.31.40377/CodeChunks.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Award_bachmaiAPI/.vs/Award_bachmaiAPI/CopilotIndices/17.12.31.40377/SemanticSymbols.db-shm" beforeDir="false" afterPath="$PROJECT_DIR$/Award_bachmaiAPI/.vs/Award_bachmaiAPI/CopilotIndices/17.12.31.40377/SemanticSymbols.db-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Award_bachmaiAPI/.vs/Award_bachmaiAPI/CopilotIndices/17.12.31.40377/SemanticSymbols.db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/Award_bachmaiAPI/.vs/Award_bachmaiAPI/CopilotIndices/17.12.31.40377/SemanticSymbols.db-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Award_bachmaiAPI/.vs/Award_bachmaiAPI/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/Award_bachmaiAPI/.vs/Award_bachmaiAPI/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Award_bachmaiAPI/.vs/Award_bachmaiAPI/FileContentIndex/b1549caa-2414-4fbb-aa73-5879c571286a.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Award_bachmaiAPI/.vs/Award_bachmaiAPI/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/Award_bachmaiAPI/.vs/Award_bachmaiAPI/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Award_bachmaiAPI/.vs/Award_bachmaiAPI/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/Award_bachmaiAPI/.vs/Award_bachmaiAPI/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Award_bachmaiAPI/.vs/Award_bachmaiAPI/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/Award_bachmaiAPI/.vs/Award_bachmaiAPI/v17/DocumentLayout.backup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Award_bachmaiAPI/.vs/Award_bachmaiAPI/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/Award_bachmaiAPI/.vs/Award_bachmaiAPI/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Award_bachmaiAPI/.vs/ProjectEvaluation/award_bachmaiapi.metadata.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Award_bachmaiAPI/.vs/ProjectEvaluation/award_bachmaiapi.metadata.v9.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Award_bachmaiAPI/.vs/ProjectEvaluation/award_bachmaiapi.projects.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Award_bachmaiAPI/.vs/ProjectEvaluation/award_bachmaiapi.projects.v9.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Award_bachmaiAPI/.vs/ProjectEvaluation/award_bachmaiapi.strings.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Award_bachmaiAPI/.vs/ProjectEvaluation/award_bachmaiapi.strings.v9.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Award_bachmaiAPI/WebAPI/obj/Debug/net9.0/WebAPI.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Award_bachmaiAPI/WebAPI/obj/Debug/net9.0/WebAPI.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Award_bachmaiAPI/WebAPI/obj/Debug/net9.0/WebAPI.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Award_bachmaiAPI/WebAPI/obj/Debug/net9.0/WebAPI.AssemblyInfoInputs.cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2uZMyv3dkqiwTm4n5Gpp0GkPde6" />
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ChatTagsLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyAccountHistoryMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyAccountsIdsRefresh&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyAssignOrphanedChatsToActiveAccount&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyConvertUrlToCodebaseName&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyHistoryLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyMigrateChatHistory-v2&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyProjectSettingsMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.DeprecatedChatLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ToggleCodyToolWindowAfterMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Documents/GitHub/testbachmai_awards&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\awards_bachmai\\node_modules\\prettier&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15136719&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Admin\\AppData\\Local\\Programs\\IntelliJ IDEA Ultimate\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\GitHub\testbachmai_awards\awards_bachmai\src\app\modules\auth" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="testbachmai_awards" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="testbachmai_awards" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="990e4f57-223e-4249-8467-86f282f6703d" name="Changes" comment="" />
+      <created>1742451901025</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742451901025</updated>
+      <workItem from="1742451902374" duration="41000" />
+      <workItem from="1742451964301" duration="2195000" />
+      <workItem from="1742479101363" duration="35000" />
+      <workItem from="1742479147874" duration="56000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

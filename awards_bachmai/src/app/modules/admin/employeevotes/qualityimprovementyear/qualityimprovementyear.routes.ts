@@ -5,7 +5,6 @@ import {
     RouterStateSnapshot,
     Routes,
 } from '@angular/router';
-import { InspirationalpersonyearComponent } from './inspirationalpersonyear.component';
 import { ContactsService } from './contacts.service';
 import { QualityimprovementyearlistComponent } from './qualityimprovementyearlist/qualityimprovementyearlist.component';
 import { QualityimprovementyeardetailComponent } from './qualityimprovementyeardetail/qualityimprovementyeardetail.component';
@@ -83,7 +82,7 @@ const canDeactivateContactsDetails = (
 export default [
     {
         path: '',
-        component: InspirationalpersonyearComponent,
+        component: QualityimprovementyearlistComponent,
         resolve: {
             tags: () => inject(ContactsService).getTags(),
         },

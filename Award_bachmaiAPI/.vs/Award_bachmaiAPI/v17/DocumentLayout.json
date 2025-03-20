@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{72A70EB0-9AC9-4984-95CF-8AD500EE6FCB}|Aplication\\Aplication.csproj|c:\\users\\admin\\documents\\github\\testbachmai_awards\\award_bachmaiapi\\aplication\\service\\humandata\\commands\\createpersoncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A70EB0-9AC9-4984-95CF-8AD500EE6FCB}|Aplication\\Aplication.csproj|solutionrelative:aplication\\service\\humandata\\commands\\createpersoncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{493554FD-FD05-41DF-A34C-9FFE55964D68}|WebAPI\\WebAPI.csproj|c:\\users\\admin\\documents\\github\\testbachmai_awards\\award_bachmaiapi\\webapi\\controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{493554FD-FD05-41DF-A34C-9FFE55964D68}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{493554FD-FD05-41DF-A34C-9FFE55964D68}|WebAPI\\WebAPI.csproj|c:\\users\\admin\\documents\\github\\testbachmai_awards\\award_bachmaiapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{493554FD-FD05-41DF-A34C-9FFE55964D68}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3793DE-12F2-4EB5-A1C7-AF2210EE65F5}|Infastructure\\Infastructure.csproj|c:\\users\\admin\\documents\\github\\testbachmai_awards\\award_bachmaiapi\\infastructure\\persitance\\dbcontext\\bachawarddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3793DE-12F2-4EB5-A1C7-AF2210EE65F5}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\persitance\\dbcontext\\bachawarddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3793DE-12F2-4EB5-A1C7-AF2210EE65F5}|Infastructure\\Infastructure.csproj|c:\\users\\admin\\documents\\github\\testbachmai_awards\\award_bachmaiapi\\infastructure\\persitance\\repository\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3793DE-12F2-4EB5-A1C7-AF2210EE65F5}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\persitance\\repository\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3793DE-12F2-4EB5-A1C7-AF2210EE65F5}|Infastructure\\Infastructure.csproj|c:\\users\\admin\\documents\\github\\testbachmai_awards\\award_bachmaiapi\\infastructure\\persitance\\bsonclassmapconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3793DE-12F2-4EB5-A1C7-AF2210EE65F5}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\persitance\\bsonclassmapconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{72A70EB0-9AC9-4984-95CF-8AD500EE6FCB}|Aplication\\Aplication.csproj|c:\\users\\admin\\documents\\github\\testbachmai_awards\\award_bachmaiapi\\aplication\\service\\humandata\\commands\\handler\\loginquerieshandller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72A70EB0-9AC9-4984-95CF-8AD500EE6FCB}|Aplication\\Aplication.csproj|solutionrelative:aplication\\service\\humandata\\commands\\handler\\loginquerieshandller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4C3793DE-12F2-4EB5-A1C7-AF2210EE65F5}|Infastructure\\Infastructure.csproj|c:\\users\\admin\\documents\\github\\testbachmai_awards\\award_bachmaiapi\\infastructure\\persitance\\repository\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C3793DE-12F2-4EB5-A1C7-AF2210EE65F5}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\persitance\\repository\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{493554FD-FD05-41DF-A34C-9FFE55964D68}|WebAPI\\WebAPI.csproj|c:\\users\\admin\\documents\\github\\testbachmai_awards\\award_bachmaiapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{493554FD-FD05-41DF-A34C-9FFE55964D68}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{493554FD-FD05-41DF-A34C-9FFE55964D68}|WebAPI\\WebAPI.csproj|c:\\users\\admin\\documents\\github\\testbachmai_awards\\award_bachmaiapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{493554FD-FD05-41DF-A34C-9FFE55964D68}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C3793DE-12F2-4EB5-A1C7-AF2210EE65F5}|Infastructure\\Infastructure.csproj|c:\\users\\admin\\documents\\github\\testbachmai_awards\\award_bachmaiapi\\infastructure\\persitance\\dbcontext\\webapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,14 +59,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infastructure\\Migrations\\20250320054554_daa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C3793DE-12F2-4EB5-A1C7-AF2210EE65F5}|Infastructure\\Infastructure.csproj|c:\\users\\admin\\documents\\github\\testbachmai_awards\\award_bachmaiapi\\infastructure\\persitance\\dbcontext\\bachawarddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C3793DE-12F2-4EB5-A1C7-AF2210EE65F5}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\persitance\\dbcontext\\bachawarddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C3793DE-12F2-4EB5-A1C7-AF2210EE65F5}|Infastructure\\Infastructure.csproj|c:\\users\\admin\\documents\\github\\testbachmai_awards\\award_bachmaiapi\\infastructure\\persitance\\bsonclassmapconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C3793DE-12F2-4EB5-A1C7-AF2210EE65F5}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\persitance\\bsonclassmapconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{493554FD-FD05-41DF-A34C-9FFE55964D68}|WebAPI\\WebAPI.csproj|c:\\users\\admin\\documents\\github\\testbachmai_awards\\award_bachmaiapi\\webapi\\controllers\\authscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{493554FD-FD05-41DF-A34C-9FFE55964D68}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\authscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -69,10 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{72A70EB0-9AC9-4984-95CF-8AD500EE6FCB}|Aplication\\Aplication.csproj|c:\\users\\admin\\documents\\github\\testbachmai_awards\\award_bachmaiapi\\aplication\\service\\humandata\\queries\\loginquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72A70EB0-9AC9-4984-95CF-8AD500EE6FCB}|Aplication\\Aplication.csproj|solutionrelative:aplication\\service\\humandata\\queries\\loginquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72A70EB0-9AC9-4984-95CF-8AD500EE6FCB}|Aplication\\Aplication.csproj|c:\\users\\admin\\documents\\github\\testbachmai_awards\\award_bachmaiapi\\aplication\\service\\humandata\\commands\\createpersoncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72A70EB0-9AC9-4984-95CF-8AD500EE6FCB}|Aplication\\Aplication.csproj|solutionrelative:aplication\\service\\humandata\\commands\\createpersoncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72A70EB0-9AC9-4984-95CF-8AD500EE6FCB}|Aplication\\Aplication.csproj|c:\\users\\admin\\documents\\github\\testbachmai_awards\\award_bachmaiapi\\aplication\\service\\humandata\\commands\\handler\\createpersoncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -97,10 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{72A70EB0-9AC9-4984-95CF-8AD500EE6FCB}|Aplication\\Aplication.csproj|c:\\users\\admin\\documents\\github\\testbachmai_awards\\award_bachmaiapi\\aplication\\service\\humandata\\commands\\deletepersoncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72A70EB0-9AC9-4984-95CF-8AD500EE6FCB}|Aplication\\Aplication.csproj|solutionrelative:aplication\\service\\humandata\\commands\\deletepersoncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{493554FD-FD05-41DF-A34C-9FFE55964D68}|WebAPI\\WebAPI.csproj|c:\\users\\admin\\documents\\github\\testbachmai_awards\\award_bachmaiapi\\webapi\\controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{493554FD-FD05-41DF-A34C-9FFE55964D68}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C3793DE-12F2-4EB5-A1C7-AF2210EE65F5}|Infastructure\\Infastructure.csproj|c:\\users\\admin\\documents\\github\\testbachmai_awards\\award_bachmaiapi\\infastructure\\service\\countryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -133,10 +133,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{72A70EB0-9AC9-4984-95CF-8AD500EE6FCB}|Aplication\\Aplication.csproj|c:\\users\\admin\\documents\\github\\testbachmai_awards\\award_bachmaiapi\\aplication\\service\\dto\\phonenumberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72A70EB0-9AC9-4984-95CF-8AD500EE6FCB}|Aplication\\Aplication.csproj|solutionrelative:aplication\\service\\dto\\phonenumberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C3793DE-12F2-4EB5-A1C7-AF2210EE65F5}|Infastructure\\Infastructure.csproj|c:\\users\\admin\\documents\\github\\testbachmai_awards\\award_bachmaiapi\\infastructure\\persitance\\repository\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C3793DE-12F2-4EB5-A1C7-AF2210EE65F5}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\persitance\\repository\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9BD998F-60C3-4B92-8E2C-5779C7101E3C}|Domain\\Domain.csproj|c:\\users\\admin\\documents\\github\\testbachmai_awards\\award_bachmaiapi\\domain\\models\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -244,150 +240,46 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "authRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Persitance\\repository\\authRepository.cs",
-              "RelativeDocumentMoniker": "Infastructure\\Persitance\\repository\\authRepository.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Persitance\\repository\\authRepository.cs",
-              "RelativeToolTip": "Infastructure\\Persitance\\repository\\authRepository.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA1wC0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "personRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Persitance\\repository\\personRepository.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Persitance\\repository\\personRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Persitance\\repository\\personRepository.cs",
+              "RelativeToolTip": "Infastructure\\Persitance\\repository\\personRepository.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwA0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T19:38:23.941Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterCommandHandller.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\service\\HumanData\\Commands\\Handler\\RegisterCommandHandller.cs",
-              "RelativeDocumentMoniker": "Aplication\\service\\HumanData\\Commands\\Handler\\RegisterCommandHandller.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\service\\HumanData\\Commands\\Handler\\RegisterCommandHandller.cs",
-              "RelativeToolTip": "Aplication\\service\\HumanData\\Commands\\Handler\\RegisterCommandHandller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T20:06:33.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginQueriesHandller.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\service\\HumanData\\Commands\\Handler\\LoginQueriesHandller.cs",
-              "RelativeDocumentMoniker": "Aplication\\service\\HumanData\\Commands\\Handler\\LoginQueriesHandller.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\service\\HumanData\\Commands\\Handler\\LoginQueriesHandller.cs",
-              "RelativeToolTip": "Aplication\\service\\HumanData\\Commands\\Handler\\LoginQueriesHandller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T20:04:24.155Z",
+              "WhenOpened": "2025-02-13T12:17:30.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\WebAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\WebAPI\\appsettings.json",
-              "RelativeToolTip": "WebAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-13T11:03:55.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WebAPIContext.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Persitance\\DbContext\\WebAPIContext.cs",
-              "RelativeDocumentMoniker": "Infastructure\\Persitance\\DbContext\\WebAPIContext.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Persitance\\DbContext\\WebAPIContext.cs",
-              "RelativeToolTip": "Infastructure\\Persitance\\DbContext\\WebAPIContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T20:50:35.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\service\\AuthService.cs",
-              "RelativeDocumentMoniker": "Infastructure\\service\\AuthService.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\service\\AuthService.cs",
-              "RelativeToolTip": "Infastructure\\service\\AuthService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T20:01:55.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ConfigureServices.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Security\\ConfigureServices.cs",
-              "RelativeDocumentMoniker": "Infastructure\\Security\\ConfigureServices.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Security\\ConfigureServices.cs",
-              "RelativeToolTip": "Infastructure\\Security\\ConfigureServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T06:14:48.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\WebAPI\\Program.cs",
-              "RelativeToolTip": "WebAPI\\Program.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T11:03:53.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WebAPIContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Persitance\\DbContext\\WebAPIContextFactory.cs",
-              "RelativeDocumentMoniker": "Infastructure\\Persitance\\DbContext\\WebAPIContextFactory.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Persitance\\DbContext\\WebAPIContextFactory.cs",
-              "RelativeToolTip": "Infastructure\\Persitance\\DbContext\\WebAPIContextFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T21:03:57.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20250320054554_daa.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Migrations\\20250320054554_daa.cs",
-              "RelativeDocumentMoniker": "Infastructure\\Migrations\\20250320054554_daa.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Migrations\\20250320054554_daa.cs",
-              "RelativeToolTip": "Infastructure\\Migrations\\20250320054554_daa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T05:45:54.197Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "BachAwardDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Persitance\\DbContext\\BachAwardDbContext.cs",
               "RelativeDocumentMoniker": "Infastructure\\Persitance\\DbContext\\BachAwardDbContext.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Persitance\\DbContext\\BachAwardDbContext.cs",
               "RelativeToolTip": "Infastructure\\Persitance\\DbContext\\BachAwardDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAcAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T12:22:03.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
+              "Title": "CreatePersonCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\service\\HumanData\\Commands\\CreatePersonCommand.cs",
+              "RelativeDocumentMoniker": "Aplication\\service\\HumanData\\Commands\\CreatePersonCommand.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\service\\HumanData\\Commands\\CreatePersonCommand.cs",
+              "RelativeToolTip": "Aplication\\service\\HumanData\\Commands\\CreatePersonCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T12:41:54.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "BsonClassMapConfig.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Persitance\\BsonClassMapConfig.cs",
               "RelativeDocumentMoniker": "Infastructure\\Persitance\\BsonClassMapConfig.cs",
@@ -400,7 +292,130 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-13T11:03:55.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "peopleController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\WebAPI\\Controllers\\peopleController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\peopleController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\WebAPI\\Controllers\\peopleController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\peopleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T12:30:39.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "ConfigureServices.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Security\\ConfigureServices.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Security\\ConfigureServices.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Security\\ConfigureServices.cs",
+              "RelativeToolTip": "Infastructure\\Security\\ConfigureServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T06:14:48.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\service\\AuthService.cs",
+              "RelativeDocumentMoniker": "Infastructure\\service\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\service\\AuthService.cs",
+              "RelativeToolTip": "Infastructure\\service\\AuthService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T20:01:55.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginQueriesHandller.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\service\\HumanData\\Commands\\Handler\\LoginQueriesHandller.cs",
+              "RelativeDocumentMoniker": "Aplication\\service\\HumanData\\Commands\\Handler\\LoginQueriesHandller.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\service\\HumanData\\Commands\\Handler\\LoginQueriesHandller.cs",
+              "RelativeToolTip": "Aplication\\service\\HumanData\\Commands\\Handler\\LoginQueriesHandller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T20:04:24.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WebAPIContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Persitance\\DbContext\\WebAPIContext.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Persitance\\DbContext\\WebAPIContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Persitance\\DbContext\\WebAPIContext.cs",
+              "RelativeToolTip": "Infastructure\\Persitance\\DbContext\\WebAPIContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T20:50:35.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterCommandHandller.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\service\\HumanData\\Commands\\Handler\\RegisterCommandHandller.cs",
+              "RelativeDocumentMoniker": "Aplication\\service\\HumanData\\Commands\\Handler\\RegisterCommandHandller.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\service\\HumanData\\Commands\\Handler\\RegisterCommandHandller.cs",
+              "RelativeToolTip": "Aplication\\service\\HumanData\\Commands\\Handler\\RegisterCommandHandller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T20:06:33.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "authRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Persitance\\repository\\authRepository.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Persitance\\repository\\authRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Persitance\\repository\\authRepository.cs",
+              "RelativeToolTip": "Infastructure\\Persitance\\repository\\authRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T19:38:23.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WebAPIContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Persitance\\DbContext\\WebAPIContextFactory.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Persitance\\DbContext\\WebAPIContextFactory.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Persitance\\DbContext\\WebAPIContextFactory.cs",
+              "RelativeToolTip": "Infastructure\\Persitance\\DbContext\\WebAPIContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T21:03:57.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250320054554_daa.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Migrations\\20250320054554_daa.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Migrations\\20250320054554_daa.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Migrations\\20250320054554_daa.cs",
+              "RelativeToolTip": "Infastructure\\Migrations\\20250320054554_daa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T05:45:54.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "AuthsController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\WebAPI\\Controllers\\AuthsController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\AuthsController.cs",
@@ -408,12 +423,11 @@
               "RelativeToolTip": "WebAPI\\Controllers\\AuthsController.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAowBEAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T21:10:27.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T21:10:27.666Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "LoginQuery.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\service\\HumanData\\Queries\\LoginQuery.cs",
               "RelativeDocumentMoniker": "Aplication\\service\\HumanData\\Queries\\LoginQuery.cs",
@@ -421,12 +435,11 @@
               "RelativeToolTip": "Aplication\\service\\HumanData\\Queries\\LoginQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T20:03:34.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T20:03:34.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "RegisterCommand.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\service\\HumanData\\Commands\\RegisterCommand.cs",
               "RelativeDocumentMoniker": "Aplication\\service\\HumanData\\Commands\\RegisterCommand.cs",
@@ -434,12 +447,11 @@
               "RelativeToolTip": "Aplication\\service\\HumanData\\Commands\\RegisterCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T20:05:41.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T20:05:41.217Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "ContainerConfig.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\ContainerConfig.cs",
               "RelativeDocumentMoniker": "Aplication\\ContainerConfig.cs",
@@ -447,12 +459,11 @@
               "RelativeToolTip": "Aplication\\ContainerConfig.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAIwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T14:52:51.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T14:52:51.791Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Infastructure.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Infastructure.csproj",
               "RelativeDocumentMoniker": "Infastructure\\Infastructure.csproj",
@@ -460,25 +471,11 @@
               "RelativeToolTip": "Infastructure\\Infastructure.csproj",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-17T06:14:27.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T06:14:27.039Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CreatePersonCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\service\\HumanData\\Commands\\CreatePersonCommand.cs",
-              "RelativeDocumentMoniker": "Aplication\\service\\HumanData\\Commands\\CreatePersonCommand.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\service\\HumanData\\Commands\\CreatePersonCommand.cs",
-              "RelativeToolTip": "Aplication\\service\\HumanData\\Commands\\CreatePersonCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T12:41:54.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "CreatePersonCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\service\\HumanData\\Commands\\Handler\\CreatePersonCommandHandler.cs",
               "RelativeDocumentMoniker": "Aplication\\service\\HumanData\\Commands\\Handler\\CreatePersonCommandHandler.cs",
@@ -486,12 +483,11 @@
               "RelativeToolTip": "Aplication\\service\\HumanData\\Commands\\Handler\\CreatePersonCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T12:42:15.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T12:42:15.966Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "DeletePersonCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\service\\HumanData\\Commands\\Handler\\DeletePersonCommandHandler.cs",
               "RelativeDocumentMoniker": "Aplication\\service\\HumanData\\Commands\\Handler\\DeletePersonCommandHandler.cs",
@@ -499,12 +495,11 @@
               "RelativeToolTip": "Aplication\\service\\HumanData\\Commands\\Handler\\DeletePersonCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T14:30:57.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T14:30:57.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "GetAllPeopleQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\service\\HumanData\\Commands\\Handler\\GetAllPeopleQueryHandler.cs",
               "RelativeDocumentMoniker": "Aplication\\service\\HumanData\\Commands\\Handler\\GetAllPeopleQueryHandler.cs",
@@ -512,12 +507,11 @@
               "RelativeToolTip": "Aplication\\service\\HumanData\\Commands\\Handler\\GetAllPeopleQueryHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T15:44:09.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T15:44:09.007Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "GetPeoplesByEmailQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\service\\HumanData\\Commands\\Handler\\GetPeoplesByEmailQueryHandler.cs",
               "RelativeDocumentMoniker": "Aplication\\service\\HumanData\\Commands\\Handler\\GetPeoplesByEmailQueryHandler.cs",
@@ -525,12 +519,11 @@
               "RelativeToolTip": "Aplication\\service\\HumanData\\Commands\\Handler\\GetPeoplesByEmailQueryHandler.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAADgvw4AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T16:42:17.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T16:42:17.668Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "GetPersonByIdQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\service\\HumanData\\Commands\\Handler\\GetPersonByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "Aplication\\service\\HumanData\\Commands\\Handler\\GetPersonByIdQueryHandler.cs",
@@ -538,12 +531,11 @@
               "RelativeToolTip": "Aplication\\service\\HumanData\\Commands\\Handler\\GetPersonByIdQueryHandler.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAADgvw4AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T16:42:43.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T16:42:43.475Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "DeletePersonCommand.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\service\\HumanData\\Commands\\DeletePersonCommand.cs",
               "RelativeDocumentMoniker": "Aplication\\service\\HumanData\\Commands\\DeletePersonCommand.cs",
@@ -551,21 +543,7 @@
               "RelativeToolTip": "Aplication\\service\\HumanData\\Commands\\DeletePersonCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T14:29:41.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "peopleController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\WebAPI\\Controllers\\peopleController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\peopleController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\WebAPI\\Controllers\\peopleController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\peopleController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T12:30:39.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T14:29:41.429Z"
             },
             {
               "$type": "Document",
@@ -665,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "Auth.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Domain\\models\\Auth.cs",
               "RelativeDocumentMoniker": "Domain\\models\\Auth.cs",
@@ -677,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "WebAPI.http",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\WebAPI\\WebAPI.http",
               "RelativeDocumentMoniker": "WebAPI\\WebAPI.http",
@@ -689,19 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "personRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Persitance\\repository\\personRepository.cs",
-              "RelativeDocumentMoniker": "Infastructure\\Persitance\\repository\\personRepository.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Persitance\\repository\\personRepository.cs",
-              "RelativeToolTip": "Infastructure\\Persitance\\repository\\personRepository.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwA0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T12:17:30.872Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "20250319203552_test.cs",
               "DocumentMoniker": "C:\\Users\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Migrations\\20250319203552_test.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\dangn\\OneDrive\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Migrations\\20250319203552_test.cs",
@@ -713,7 +679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "WebAPI.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\WebAPI\\WebAPI.csproj",
               "RelativeDocumentMoniker": "WebAPI\\WebAPI.csproj",
@@ -721,12 +687,11 @@
               "RelativeToolTip": "WebAPI\\WebAPI.csproj",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABgAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-14T12:32:04.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T12:32:04.771Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Domain\\Interface\\IAuthService.cs",
               "RelativeDocumentMoniker": "Domain\\Interface\\IAuthService.cs",
@@ -738,7 +703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "UpdatePersonCommand.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\service\\HumanData\\Commands\\UpdatePersonCommand.cs",
               "RelativeDocumentMoniker": "Aplication\\service\\HumanData\\Commands\\UpdatePersonCommand.cs",
@@ -750,7 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "IAuthRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Domain\\Interface\\IAuthRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interface\\IAuthRepository.cs",
@@ -762,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "UpdatePersonCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\service\\HumanData\\Commands\\Handler\\UpdatePersonCommandHandler.cs",
               "RelativeDocumentMoniker": "Aplication\\service\\HumanData\\Commands\\Handler\\UpdatePersonCommandHandler.cs",
@@ -774,7 +739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 41,
               "Title": "ITagRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Domain\\Interface\\ITagRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interface\\ITagRepository.cs",
@@ -786,7 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 43,
               "Title": "Persons.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Domain\\models\\Persons.cs",
               "RelativeDocumentMoniker": "Domain\\models\\Persons.cs",
@@ -798,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 42,
               "Title": "Infastructure.csproj.Backup.tmp",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\Infastructure.csproj.Backup.tmp",
               "RelativeDocumentMoniker": "Infastructure\\Infastructure.csproj.Backup.tmp",
@@ -810,7 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 44,
               "Title": "IPersonService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Domain\\Interface\\IPersonService.cs",
               "RelativeDocumentMoniker": "Domain\\Interface\\IPersonService.cs",
@@ -822,7 +787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 45,
               "Title": "IPersonRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Domain\\Interface\\IPersonRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interface\\IPersonRepository.cs",
@@ -834,7 +799,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 46,
               "Title": "ICountryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Domain\\Interface\\ICountryRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interface\\ICountryRepository.cs",
@@ -846,7 +811,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 47,
               "Title": "Aplication.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Aplication\\Aplication.csproj",
               "RelativeDocumentMoniker": "Aplication\\Aplication.csproj",
@@ -854,12 +819,11 @@
               "RelativeToolTip": "Aplication\\Aplication.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-17T06:52:31.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T06:52:31.032Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 48,
               "Title": "Domain.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "Domain\\Domain.csproj",
@@ -867,12 +831,11 @@
               "RelativeToolTip": "Domain\\Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-19T19:27:27.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T19:27:27.696Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 49,
               "Title": "GlobalExceptionHandlerMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\middleware\\GlobalExceptionHandlerMiddleware.cs",
               "RelativeDocumentMoniker": "Infastructure\\middleware\\GlobalExceptionHandlerMiddleware.cs",
@@ -884,7 +847,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 50,
               "Title": "Tag.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Domain\\models\\Tag.cs",
               "RelativeDocumentMoniker": "Domain\\models\\Tag.cs",
@@ -896,7 +859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 51,
               "Title": "ErrorDetails.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Infastructure\\middleware\\ErrorDetails.cs",
               "RelativeDocumentMoniker": "Infastructure\\middleware\\ErrorDetails.cs",
@@ -908,7 +871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 52,
               "Title": "LICENSE.TXT",
               "DocumentMoniker": "C:\\Users\\dangn\\.nuget\\packages\\microsoft.extensions.logging\\9.0.0\\LICENSE.TXT",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\dangn\\.nuget\\packages\\microsoft.extensions.logging\\9.0.0\\LICENSE.TXT",
@@ -921,7 +884,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 53,
               "Title": "PhoneNumber.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Domain\\models\\PhoneNumber.cs",
               "RelativeDocumentMoniker": "Domain\\models\\PhoneNumber.cs",
@@ -933,7 +896,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 54,
               "Title": "Email.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Domain\\models\\Email.cs",
               "RelativeDocumentMoniker": "Domain\\models\\Email.cs",
@@ -945,7 +908,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 55,
               "Title": "Country.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\Domain\\models\\Country.cs",
               "RelativeDocumentMoniker": "Domain\\models\\Country.cs",
@@ -957,7 +920,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 56,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\testbachmai_awards\\Award_bachmaiAPI\\WebAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebAPI\\Properties\\launchSettings.json",

@@ -10,7 +10,7 @@ import { LayoutComponent } from 'app/layout/layout.component';
 export const appRoutes: Route[] = [
 
     // Redirect empty path to '/employeevotes'
-    {path: '', pathMatch : 'full', redirectTo: 'home'},   
+    {path: '', pathMatch : 'full', redirectTo: 'home'},
     {path: 'signed-in-redirect', pathMatch : 'full', redirectTo: 'employeevotes'},
 
     // Auth routes for guests
@@ -22,8 +22,9 @@ export const appRoutes: Route[] = [
         data: {
             layout: 'empty'
         },
-        children: [                       
-            {path: 'sign-in', loadChildren: () => import('app/modules/auth/sign-in/sign-in.routes')},            
+        children: [
+            {path: 'sign-in', loadChildren: () => import('app/modules/auth/sign-in/sign-in.routes')},
+            {path: 'sign-up', loadChildren: () => import('app/modules/auth/sign-up/sign-up.routes')}
         ]
     },
 
@@ -44,13 +45,13 @@ export const appRoutes: Route[] = [
 
     // Home routes
     {
-        path: '',              
+        path: '',
         component: LayoutComponent,
         data: {
             layout: 'empty'
         },
         children: [
-            {path: 'home', loadChildren: () => import('app/modules/landing/home/home.routes')},             
+            {path: 'home', loadChildren: () => import('app/modules/landing/home/home.routes')},
         ]
     },
 
@@ -63,7 +64,7 @@ export const appRoutes: Route[] = [
         resolve: {
             initialData: initialDataResolver
         },
-       children: [            
+       children: [
             {path: 'employeevotes', loadChildren: () => import('app/modules/admin/employeevotes/employeevotes.routes')},
         ]
     }

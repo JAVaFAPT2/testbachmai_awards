@@ -13,7 +13,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { fuseAnimations } from '@fuse/animations';
 import { AuthService } from 'app/core/auth/auth.service';
 
@@ -22,7 +22,7 @@ import { AuthService } from 'app/core/auth/auth.service';
     templateUrl: './sign-in.component.html',
     encapsulation: ViewEncapsulation.None,
     animations: fuseAnimations,
-    imports: [           
+    imports: [
         FormsModule,
         ReactiveFormsModule,
         MatFormFieldModule,
@@ -31,11 +31,12 @@ import { AuthService } from 'app/core/auth/auth.service';
         MatIconModule,
         MatCheckboxModule,
         MatProgressSpinnerModule,
+        RouterLink,
     ],
 })
 export class AuthSignInComponent implements OnInit {
     @ViewChild('signInNgForm') signInNgForm: NgForm;
-    
+
     signInForm: UntypedFormGroup;
     showAlert: boolean = false;
 
@@ -59,10 +60,7 @@ export class AuthSignInComponent implements OnInit {
     ngOnInit(): void {
         // Create the form
         this.signInForm = this._formBuilder.group({
-            username: [
-                'hughes.brian@company.com',
-                [Validators.required],
-            ],
+            username: ['hughes.brian@company.com', [Validators.required]],
             password: ['admin', Validators.required],
             rememberMe: [''],
         });
@@ -77,7 +75,7 @@ export class AuthSignInComponent implements OnInit {
      */
     signIn(): void {
         // Return if the form is invalid
-        if (this.signInForm.invalid) {        
+        if (this.signInForm.invalid) {
             return;
         }
         console.log(this.signInForm.value);
@@ -93,7 +91,7 @@ export class AuthSignInComponent implements OnInit {
                 // Set the redirect url.
                 // The '/signed-in-redirect' is a dummy url to catch the request and redirect the user
                 // to the correct page after a successful sign in. This way, that url can be set via
-                // routing file and we don't have to touch here.
+                // routing file, and we don't have to touch here.
                 const redirectURL =
                     this._activatedRoute.snapshot.queryParamMap.get(
                         'redirectURL'
@@ -107,7 +105,7 @@ export class AuthSignInComponent implements OnInit {
                 this.signInForm.enable();
 
                 // Reset the form
-                this.signInNgForm.resetForm();                                
+                this.signInNgForm.resetForm();
             }
         );
     }
