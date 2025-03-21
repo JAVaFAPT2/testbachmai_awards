@@ -9,8 +9,8 @@ namespace Domain.Interface
 {
     public interface IAuthRepository
     {
-        Task<Auth> RegisterAsync(Auth user, string password);
-        Task<Auth> LoginAsync(string username, string password);
+        Task<Auth> RegisterAsync(Auth user);
+        Task<Auth> LoginAsync(string username, string password );
         Task<bool> UserExistsAsync(string username);
     }
 }

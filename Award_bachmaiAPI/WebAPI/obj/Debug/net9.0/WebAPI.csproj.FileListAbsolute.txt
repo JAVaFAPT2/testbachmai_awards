@@ -312,12 +312,9 @@ C:\Users\Admin\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\WebAPI\obj\D
 C:\Users\Admin\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\WebAPI\obj\Debug\net9.0\WebAPI.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\WebAPI\obj\Debug\net9.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Admin\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\WebAPI\obj\Debug\net9.0\WebAPI.sourcelink.json
-C:\Users\Admin\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\WebAPI\obj\Debug\net9.0\WebAPI.dll
-C:\Users\Admin\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\WebAPI\obj\Debug\net9.0\refint\WebAPI.dll
-C:\Users\Admin\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\WebAPI\obj\Debug\net9.0\WebAPI.pdb
 C:\Users\Admin\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\WebAPI\bin\Debug\net9.0\appsettings.Development.json
-C:\Users\Admin\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\WebAPI\bin\Debug\net9.0\WebAPI.staticwebassets.endpoints.json
 C:\Users\Admin\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\WebAPI\bin\Debug\net9.0\appsettings.json
+C:\Users\Admin\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\WebAPI\bin\Debug\net9.0\WebAPI.staticwebassets.endpoints.json
 C:\Users\Admin\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\WebAPI\bin\Debug\net9.0\WebAPI.exe
 C:\Users\Admin\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\WebAPI\bin\Debug\net9.0\WebAPI.deps.json
 C:\Users\Admin\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\WebAPI\bin\Debug\net9.0\WebAPI.runtimeconfig.json
@@ -613,5 +610,8 @@ C:\Users\Admin\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\WebAPI\obj\D
 C:\Users\Admin\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\WebAPI\obj\Debug\net9.0\staticwebassets.pack.json
 C:\Users\Admin\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\WebAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Admin\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\WebAPI\obj\Debug\net9.0\WebAPI.csproj.Up2Date
+C:\Users\Admin\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\WebAPI\obj\Debug\net9.0\WebAPI.dll
+C:\Users\Admin\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\WebAPI\obj\Debug\net9.0\refint\WebAPI.dll
+C:\Users\Admin\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\WebAPI\obj\Debug\net9.0\WebAPI.pdb
 C:\Users\Admin\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\WebAPI\obj\Debug\net9.0\WebAPI.genruntimeconfig.cache
 C:\Users\Admin\Documents\GitHub\testbachmai_awards\Award_bachmaiAPI\WebAPI\obj\Debug\net9.0\ref\WebAPI.dll

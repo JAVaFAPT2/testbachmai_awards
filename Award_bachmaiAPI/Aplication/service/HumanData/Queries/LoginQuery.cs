@@ -12,6 +12,7 @@ namespace Aplication.service.HumanData.Queries
         {
             Username = username;
             Password = password;
+            
         }
     }
 }

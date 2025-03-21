@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Domain.models.Auth;
 
 namespace Infastructure.service
 {
@@ -20,9 +21,9 @@ namespace Infastructure.service
             return await _mediator.Send(new LoginQuery(email, password));
         }
 
-        public async Task<Auth> RegisterAsync(string username,string password)
+        public async Task<Auth> RegisterAsync(string username,string password,AuthRole role)
         {
-            return await _mediator.Send(new RegisterCommand(username, password));
+            return await _mediator.Send(new RegisterCommand(username, password, role));
         }
     }
 }

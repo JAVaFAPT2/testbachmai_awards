@@ -1,5 +1,6 @@
 ﻿using Domain.models;
 using MediatR;
+using static Domain.models.Auth;
 
 namespace Aplication.service.HumanData.Commands
 {
@@ -9,10 +10,13 @@ namespace Aplication.service.HumanData.Commands
         public string Username { get; set; }
         public string Password { get; set; }
 
-        public RegisterCommand(string username, string password)
+        public AuthRole role { get; set; }
+
+        public RegisterCommand(string username, string password, AuthRole role)
         {
             Username = username;
             Password = password;
+            this.role = role;
         }
     }
 }

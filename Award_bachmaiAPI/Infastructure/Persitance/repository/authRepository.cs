@@ -30,13 +30,14 @@ namespace Infastructure.Persitance.repository
             return user;
         }
 
-       public async Task<Auth> RegisterAsync(Auth user, string password)
+       public async Task<Auth> RegisterAsync(Auth user)
         {
             if (await UserExistsAsync(user.Username))
             {
                 throw new ArgumentException("Username already exists.");
             }
-
+            
+            string password = user.Password;
             user.Password = BCrypt.Net.BCrypt.HashPassword(password);
             _context.Auths.Add(user);
             await _context.SaveChangesAsync();
@@ -49,16 +50,16 @@ namespace Infastructure.Persitance.repository
             return await _context.Auths.AnyAsync(u => u.Username == username);
         }
 
-        private bool VerifyPassword(Auth user, string password)
-        {
-            // Implement your password verification logic here
-            return user.Password == password; // Simplified for example purposes
-        }
+        //private bool VerifyPassword(Auth user, string password)
+        //{
+        //    // Implement your password verification logic here
+        //    return user.Password == password; // Simplified for example purposes
+        //}
 
-        private string HashPassword(string password)
-        {
-            return BCrypt.Net.BCrypt.HashPassword(password);
-        }
+        //private string HashPassword(string password)
+        //{
+        //    return BCrypt.Net.BCrypt.HashPassword(password);
+        //}
     }
 }
 
